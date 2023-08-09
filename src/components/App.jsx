@@ -1,16 +1,21 @@
+// import ClientPortal from 'pages/ClientPortal/ClientPOrtal';
+// import ContactUs from 'pages/ContactUs/ContactUs';
+import { lazy } from 'react';
+import { Route, Routes } from 'react-router-dom';
+import Layout from './Layout/Layout';
+
+const Home = lazy(() => import('pages/Home/Home'));
+const ClientPortal = lazy(() => import('pages/ClientPortal/ClientPortal'));
+const ContactUs = lazy(() => import('pages/ContactUs/ContactUs'));
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101',
-      }}
-    >
-      Regulbe
-    </div>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="/clientportal" element={<ClientPortal />} />
+        <Route path="/contactus" element={<ContactUs />} />
+      </Route>
+    </Routes>
   );
 };
