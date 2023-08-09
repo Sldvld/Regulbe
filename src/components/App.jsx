@@ -1,5 +1,3 @@
-// import ClientPortal from 'pages/ClientPortal/ClientPOrtal';
-// import ContactUs from 'pages/ContactUs/ContactUs';
 import { lazy } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Layout from './Layout/Layout';

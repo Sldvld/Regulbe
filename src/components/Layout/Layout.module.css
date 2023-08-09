@@ -1,0 +1,65 @@
+.headerLogo {
+  display: block;
+  text-decoration: none;
+  background: linear-gradient(45deg, #4f86e3, #898af4);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 800;
+  font-size: 25px;
+}
+
+.headerBlocks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headerBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  height: 75px;
+  background-color: transparent;
+  box-shadow: none;
+  z-index: 1000;
+}
+
+.headerLink {
+  display: block;
+  list-style: none;
+  text-decoration: none;
+  padding: 15px;
+  margin-left: 20px;
+  color: #757a7e;
+  font-weight: 400;
+  font-size: 18px;
+}
+.headerLinkContact {
+  display: block;
+  list-style: none;
+  text-decoration: none;
+  padding: 15px;
+  margin-left: 20px;
+  color: transparent;
+  font-weight: 400;
+  font-size: 18px;
+  background: linear-gradient(45deg, #4f86e3, #898af4);
+  -webkit-background-clip: text;
+  background-clip: text;
+  border: 1px solid transparent;
+  border-image: linear-gradient(45deg, #4f86e3, #898af4);
+  border-image-slice: 1;
+  border-radius: 20%;
+  transition: color 0.3s, border-color 0.3s;
+}
+
+.headerLists {
+  display: flex;
+  list-style: none;
+}

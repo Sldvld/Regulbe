@@ -1,4 +1,4 @@
-@import-normalize;
+@import-normalize; /* bring in normalize.css styles */
 
 body {
   margin: 0;
@@ -20,4 +20,8 @@ code {
   max-width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+:root {
+  --primary-color: #757a7e;
 }

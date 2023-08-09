@@ -1,7 +1,8 @@
+import css from './ClientPortal.module.css';
 const ClientPortal = () => {
   return (
     <>
-      <h1>ClientPortal</h1>
+      <h1 className={css.primary}>ClientPortal</h1>
     </>
   );
 };
