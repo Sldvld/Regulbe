@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Regulbe/static/css/main.7acaea2f.css",
-    "main.js": "/Regulbe/static/js/main.07d3183d.js",
+    "main.js": "/Regulbe/static/js/main.a4536117.js",
     "index.html": "/Regulbe/index.html",
     "main.7acaea2f.css.map": "/Regulbe/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/Regulbe/static/js/main.07d3183d.js.map"
+    "main.a4536117.js.map": "/Regulbe/static/js/main.a4536117.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/js/main.a4536117.js"
   ]
 }
