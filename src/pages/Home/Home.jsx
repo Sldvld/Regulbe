@@ -11,7 +11,9 @@ const Home = () => {
           style={{ backgroundImage: `url(${backgroundImg})` }}
         >
           <h1 className={css.heroText}>
-            Regulbe - regulatory compliance services for VolP and cloud - based
+            <span className={css.logoDecoration}>Regulbe </span>- regulatory
+            compliance services for
+            <span className={css.logoDecoration}> VolP</span> and cloud - based
             communications service providers
           </h1>
         </div>
