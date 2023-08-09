@@ -1,13 +1,19 @@
 {
   "files": {
-    "main.css": "/Regulbe/static/css/main.7acaea2f.css",
-    "main.js": "/Regulbe/static/js/main.a4536117.js",
+    "main.css": "/Regulbe/static/css/main.a07017f2.css",
+    "main.js": "/Regulbe/static/js/main.a22ca17c.js",
+    "static/js/544.4d82676c.chunk.js": "/Regulbe/static/js/544.4d82676c.chunk.js",
+    "static/js/758.5699bebc.chunk.js": "/Regulbe/static/js/758.5699bebc.chunk.js",
+    "static/js/839.12e0ca7e.chunk.js": "/Regulbe/static/js/839.12e0ca7e.chunk.js",
     "index.html": "/Regulbe/index.html",
-    "main.7acaea2f.css.map": "/Regulbe/static/css/main.7acaea2f.css.map",
-    "main.a4536117.js.map": "/Regulbe/static/js/main.a4536117.js.map"
+    "main.a07017f2.css.map": "/Regulbe/static/css/main.a07017f2.css.map",
+    "main.a22ca17c.js.map": "/Regulbe/static/js/main.a22ca17c.js.map",
+    "544.4d82676c.chunk.js.map": "/Regulbe/static/js/544.4d82676c.chunk.js.map",
+    "758.5699bebc.chunk.js.map": "/Regulbe/static/js/758.5699bebc.chunk.js.map",
+    "839.12e0ca7e.chunk.js.map": "/Regulbe/static/js/839.12e0ca7e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.a4536117.js"
+    "static/css/main.a07017f2.css",
+    "static/js/main.a22ca17c.js"
   ]
 }
