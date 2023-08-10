@@ -6,7 +6,7 @@ import css from './Layout.module.css';
 const Layout = () => {
   return (
     <>
-      <div class="container">
+      <div className={css.container}>
         <header className={css.headerBox}>
           <NavLink className={css.headerLogo} to="/">
             Regulbe

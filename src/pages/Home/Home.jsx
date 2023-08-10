@@ -9,7 +9,7 @@ const Home = () => {
         className={css.bckg}
         style={{ backgroundImage: `url(${backgroundImg})` }}
       >
-        <div class="container">
+        <div className={css.container}>
           <div className={css.heroContainer}>
             <h1 className={css.heroText}>
               <span className={css.logoDecoration}>Regulbe </span>- regulatory
