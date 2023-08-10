@@ -1,5 +1,6 @@
 @import-normalize; /* bring in normalize.css styles */
 
+@import url('https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro?styles=82961,82965,82963');
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -17,11 +18,14 @@ code {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1500px;
   padding-left: 15px;
   padding-right: 15px;
 }
 
+body {
+  font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+}
 :root {
   --primary-color: #757a7e;
 }

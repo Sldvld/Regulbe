@@ -1,65 +1,81 @@
+.headerBox {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1500px;
+  align-items: center;
+  height: 70px;
+  background-color: transparent;
+  box-shadow: none;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.containerHeader {
+  display: flex;
+  align-items: center;
+}
+
 .headerLogo {
   display: block;
   text-decoration: none;
   background: linear-gradient(45deg, #4f86e3, #898af4);
   -webkit-background-clip: text;
-  background-clip: text;
   color: transparent;
-  font-weight: 800;
-  font-size: 25px;
-}
-
-.headerBlocks {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.headerBox {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0;
-  margin: 0;
-  height: 75px;
-  background-color: transparent;
-  box-shadow: none;
-  z-index: 1000;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  padding-left: 15px;
 }
 
 .headerLink {
   display: block;
   list-style: none;
   text-decoration: none;
-  padding: 15px;
-  margin-left: 20px;
-  color: #757a7e;
-  font-weight: 400;
-  font-size: 18px;
+  padding: 15px 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 1.2;
+  color: #000000;
 }
-.headerLinkContact {
-  display: block;
-  list-style: none;
-  text-decoration: none;
-  padding: 15px;
-  margin-left: 20px;
+
+.headerButton {
+  cursor: pointer;
+  display: inline-block;
+  padding: 15px 30px;
   color: transparent;
   font-weight: 400;
   font-size: 18px;
   background: linear-gradient(45deg, #4f86e3, #898af4);
   -webkit-background-clip: text;
   background-clip: text;
-  border: 1px solid transparent;
-  border-image: linear-gradient(45deg, #4f86e3, #898af4);
+  border: 1px solid #4f86e3;
   border-image-slice: 1;
-  border-radius: 20%;
+  border-radius: 50px;
+  -webkit-text-fill-color: transparent;
   transition: color 0.3s, border-color 0.3s;
+}
+
+.headerLinkPortal {
+  display: block;
+  list-style: none;
+  text-decoration: none;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color: #9e9d9d;
 }
 
 .headerLists {
   display: flex;
   list-style: none;
+  align-items: center;
+  align-content: center;
+  gap: 50px;
+  margin: 0;
+  padding: 0;
 }
