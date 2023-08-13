@@ -20,14 +20,14 @@
 .headerLogo {
   display: block;
   text-decoration: none;
-  background: linear-gradient(45deg, #4f86e3, #898af4);
+  background: var(--gradient-text);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  font-size: 20px;
+  padding: 15px;
+  font-size: 30px;
   font-weight: 600;
-  line-height: 24px;
-  padding-left: 15px;
+  line-height: 36px;
 }
 
 .headerLink {
@@ -39,37 +39,22 @@
   font-weight: 500;
   line-height: 17px;
   letter-spacing: 1.2;
-  color: #000000;
-}
-
-.headerButton {
-  cursor: pointer;
-  display: inline-block;
-  padding: 15px 30px;
-  color: transparent;
-  font-weight: 400;
-  font-size: 18px;
-  background: linear-gradient(45deg, #4f86e3, #898af4);
-  -webkit-background-clip: text;
-  background-clip: text;
-  border: 1px solid #4f86e3;
-  border-image-slice: 1;
-  border-radius: 50px;
-  -webkit-text-fill-color: transparent;
-  transition: color 0.3s, border-color 0.3s;
-  margin-right: 15px;
+  color: var(--text-color-black);
 }
 
 .headerLinkPortal {
   display: block;
   list-style: none;
   text-decoration: none;
+  background: var(--gradient-text);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
   padding: 15px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   line-height: 19px;
-  letter-spacing: 0em;
-  color: #9e9d9d;
+  letter-spacing: 0.02em;
 }
 
 .headerLists {

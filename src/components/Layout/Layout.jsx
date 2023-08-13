@@ -4,6 +4,13 @@ import { Suspense } from 'react';
 import css from './Layout.module.css';
 
 const Layout = () => {
+  const scrollToSection = sectionId => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <>
       <div className={css.container}>
@@ -13,13 +20,24 @@ const Layout = () => {
           </NavLink>
           <ul className={css.headerLists}>
             <li>
-              <NavLink className={css.headerLink} to="/about">
+              <NavLink
+                className={css.headerLink}
+                onClick={() => scrollToSection('about')}
+              >
                 ABOUT US
               </NavLink>
             </li>
             <li>
-              <NavLink className={css.headerLink} to="/services">
+              <NavLink
+                className={css.headerLink}
+                onClick={() => scrollToSection('services')}
+              >
                 SERVICES
+              </NavLink>
+            </li>
+            <li>
+              <NavLink className={css.headerLink} to="/services">
+                EXPERTISE
               </NavLink>
             </li>
             <li>
@@ -36,17 +54,8 @@ const Layout = () => {
           <ul className={css.headerLists}>
             <li>
               <NavLink className={css.headerLinkPortal} to="/clientportal">
-                Client Portal
+                CLIENT PORTAL
               </NavLink>
-            </li>
-            <li>
-              <button
-                type="button"
-                className={css.headerButton}
-                to="/contactus"
-              >
-                Contact us →
-              </button>
             </li>
           </ul>
         </header>
