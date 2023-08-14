@@ -2,7 +2,7 @@ import css from './Pricing.module.css';
 
 const Pricing = () => {
   return (
-    <div className={css.pcicingSection}>
+    <div className={css.pcicingSection} id="pricing">
       <div className={css.pricingWrapper}>
         <h2 className={css.pricingHeader}>PRICING</h2>
       </div>
