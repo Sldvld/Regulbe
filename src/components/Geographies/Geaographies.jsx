@@ -3,7 +3,7 @@ import Map from '../../assets/map.svg';
 
 const Geographies = () => {
   return (
-    <div className={css.geographiesSection}>
+    <div className={css.geographiesSection} id="geographies">
       <div className={css.geographiesWrapper}>
         <div className={css.geographiesTextBlock}>
           <h2 className={css.geographiesHeader}>GEOGRAPHIES</h2>
