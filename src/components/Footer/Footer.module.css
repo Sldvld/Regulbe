@@ -2,3 +2,12 @@
   background: var(--gradient-text);
   height: 250px;
 }
+.footerLabel {
+  text-decoration: none;
+  color: var(--text-color-white);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
