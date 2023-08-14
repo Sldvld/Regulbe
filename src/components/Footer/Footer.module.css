@@ -1,0 +1,4 @@
+.footerWraper {
+  background: var(--gradient-text);
+  height: 250px;
+}

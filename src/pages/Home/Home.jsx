@@ -5,6 +5,8 @@ import Services from 'components/Services/Services';
 import Expertise from 'components/Experetise/Expertise';
 import Questions from 'components/Questions/Questions';
 import Geographies from 'components/Geographies/Geaographies';
+import Pricing from 'components/Pricing/Pricing';
+import Footer from 'components/Footer/Footer';
 
 const Home = () => {
   return (
@@ -15,6 +17,8 @@ const Home = () => {
       <Expertise />
       <Questions />
       <Geographies />
+      <Pricing />
+      <Footer />
     </>
   );
 };
