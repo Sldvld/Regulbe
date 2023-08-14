@@ -17,9 +17,22 @@ code {
 section {
   margin-left: auto;
   margin-right: auto;
-  max-width: 1920px;
+  max-width: 1500px;
   padding-left: 15px;
   padding-right: 15px;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -30,4 +43,5 @@ body {
   --gradient-text: linear-gradient(45deg, #4f86e3, #898af4);
   --text-color-black: #000000;
   --text-color-white: #ffffff;
+  --background-color-grey: #f9f9f9;
 }

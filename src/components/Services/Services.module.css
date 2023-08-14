@@ -1,0 +1,45 @@
+.servicesSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 150px 0px;
+  background-color: var(--background-color-grey);
+}
+
+.servicesBlock {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 1500px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.servicesHeader {
+  margin-bottom: 70px;
+  color: var(--text-color-black);
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+}
+
+.servicesText {
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 31px;
+  letter-spacing: 0.02em;
+  color: var(--text-color-black);
+  width: 543px;
+}
+
+.servicesPrinciples {
+  display: block;
+  height: 283px;
+  width: 750px;
+  margin-left: auto;
+  border-radius: 20px;
+  background: var(--gradient-text);
+}

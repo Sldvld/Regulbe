@@ -1,3 +1,42 @@
 .aboutSection {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 150px 0px;
+  background-color: var(--text-color-white);
+}
+.aboutImage {
+  display: block;
+  max-width: 625px;
+  max-height: 435px;
+}
+.aboutTextBlock {
+  display: block;
+  max-width: 534px;
+}
+.aboutHeader {
+  margin-bottom: 70px;
+  color: var(--text-color-black);
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+}
+.aboutText {
+  display: block;
+  margin-bottom: 30px;
+  padding: 0;
+  color: var(--text-color-black);
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 31px;
+  letter-spacing: 0.02em;
+}
+.aboutTextHelps {
+  display: block;
+  color: var(--text-color-black);
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 31px;
+  letter-spacing: 0.02em;
 }
