@@ -28,3 +28,6 @@
   letter-spacing: 0.02em;
   text-align: left;
 }
+.geographiesMap {
+  max-width: 840;
+}

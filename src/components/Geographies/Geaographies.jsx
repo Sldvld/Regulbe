@@ -13,7 +13,7 @@ const Geographies = () => {
           <p className={css.geographiesLocation}>Latin America (7)</p>
           <p className={css.geographiesLocation}>North America (2)</p>
         </div>
-        <img src={Map} alt="" />
+        <img className={css.geographiesMap} src={Map} alt="" />
       </div>
     </div>
   );
