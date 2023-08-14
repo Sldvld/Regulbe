@@ -1,0 +1,39 @@
+.expertiseSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 150px 0px;
+}
+.expertiseTextBlock {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 70px;
+}
+.expertiseHeader {
+  color: var(--text-color-black);
+  margin-bottom: 70px;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+}
+.expertiseText {
+  display: block;
+  padding: 10px 20px 10px 20px;
+  border-radius: 200px;
+  border: 1px;
+  border: 1px solid #4f86e3;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 31px;
+  letter-spacing: 0.02em;
+}
+.expertiseNote {
+  color: #9e9d9d;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+}

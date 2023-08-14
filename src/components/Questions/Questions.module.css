@@ -1,0 +1,41 @@
+.questionsSection {
+  background: var(--gradient-text);
+  padding: 150px 0px;
+}
+.questionsWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1500px;
+}
+.questionsText {
+  color: var(--text-color-white);
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 96px;
+  letter-spacing: 0em;
+}
+.questionsTextBlock {
+  display: flex;
+  flex-direction: column;
+}
+.contactUsButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  text-align: center;
+  width: 239px;
+  height: 47px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  padding: 25px 55px;
+  border-radius: 50px;
+  background: var(--text-color-white);
+  color: #4f86e3;
+  position: relative;
+}

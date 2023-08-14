@@ -36,17 +36,26 @@ const Layout = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink className={css.headerLink} to="/services">
+              <NavLink
+                className={css.headerLink}
+                onClick={() => scrollToSection('expertise')}
+              >
                 EXPERTISE
               </NavLink>
             </li>
             <li>
-              <NavLink className={css.headerLink} to="/geographies">
+              <NavLink
+                className={css.headerLink}
+                onClick={() => scrollToSection('geographies')}
+              >
                 GEOGRAPHIES
               </NavLink>
             </li>
             <li>
-              <NavLink className={css.headerLink} to="/pricing">
+              <NavLink
+                className={css.headerLink}
+                onClick={() => scrollToSection('pricing')}
+              >
                 PRICING
               </NavLink>
             </li>
