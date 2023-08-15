@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom';
+import sprite from '../../assets/sprite.svg';
 import css from './Questions.module.css';
 
 const Questions = () => {
@@ -10,7 +11,10 @@ const Questions = () => {
           <p className={css.questionsText}> Let's talk!</p>
         </div>
         <NavLink className={css.contactUsButton} to="/contactus">
-          Contact us →
+          Contact us
+          <svg className={css.arrowSvg}>
+            <use href={sprite + '#icon-arrow'} />
+          </svg>
         </NavLink>
       </div>
     </div>

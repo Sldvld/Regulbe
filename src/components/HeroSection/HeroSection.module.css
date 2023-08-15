@@ -76,3 +76,8 @@
   /* filter: hue-rotate(-12deg); */
   background: linear-gradient(103.88deg, #3b78df 7.98%, #5859de 102.57%);
 }
+.arrowSvg {
+  margin-left: 14px;
+  width: 16px;
+  height: 12px;
+}

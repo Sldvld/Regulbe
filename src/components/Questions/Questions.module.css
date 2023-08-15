@@ -47,3 +47,9 @@
   background: transparent;
   color: var(--text-color-white);
 }
+.arrowSvg {
+  fill: red;
+  margin-left: 14px;
+  width: 16px;
+  height: 12px;
+}

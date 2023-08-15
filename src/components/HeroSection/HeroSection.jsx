@@ -1,4 +1,5 @@
 import backgroundImg from '../../assets/bckg.jpg';
+import sprite from '../../assets/sprite.svg';
 import css from './HeroSection.module.css';
 
 const HeroSection = () => {
@@ -17,7 +18,10 @@ const HeroSection = () => {
           </h1>
 
           <button type="button" className={css.contactUsButton} to="/contactus">
-            Contact us →
+            Contact us
+            <svg className={css.arrowSvg}>
+              <use href={sprite + '#icon-arrow'} />
+            </svg>
           </button>
         </div>
       </div>

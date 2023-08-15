@@ -1,6 +1,6 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<symbol id="icon-arrow" viewBox="0 0 41 32">
+<symbol id="icon-arrow" viewBox="0 0 41 32" fill="currentColor">
 <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.4286" d="M2.286 16h36.571M38.857 16l-13.714 13.714M38.857 16l-13.714-13.714"></path>
 </symbol>
 
