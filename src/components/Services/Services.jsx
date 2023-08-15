@@ -23,14 +23,14 @@ const Services = () => {
         </div>
         <div className={css.servicesPrinciples}>
           <ul>
-            <li>
-              <div className={css.servicesBlocks}></div>
+            <li className={css.servicesBlocks}>
+              <div></div>
             </li>
-            <li>
-              <div className={css.servicesBlocks}></div>
+            <li className={css.servicesBlocks}>
+              <div></div>
             </li>
-            <li>
-              <div className={css.servicesBlocks}></div>
+            <li className={css.servicesBlocks}>
+              <div></div>
             </li>
           </ul>
         </div>
