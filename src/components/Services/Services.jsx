@@ -21,7 +21,19 @@ const Services = () => {
             to the needs and interests of our clients.
           </p>
         </div>
-        <div className={css.servicesPrinciples}></div>
+        <div className={css.servicesPrinciples}>
+          <ul>
+            <li>
+              <div className={css.servicesBlocks}></div>
+            </li>
+            <li>
+              <div className={css.servicesBlocks}></div>
+            </li>
+            <li>
+              <div className={css.servicesBlocks}></div>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );
