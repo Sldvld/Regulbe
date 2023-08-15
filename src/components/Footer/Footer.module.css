@@ -1,13 +1,52 @@
 .footerWraper {
   background: var(--gradient-text);
-  height: 250px;
+  padding: 93px 15px;
+}
+.footerBlocks {
+  display: flex;
+  align-items: center;
 }
 .footerLabel {
   text-decoration: none;
   color: var(--text-color-white);
+  padding-bottom: 20px;
   font-size: 20px;
   font-weight: 600;
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
+}
+.navList {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 31px;
+}
+.navItem {
+  color: var(--text-color-white);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.footerCopyright {
+  display: block;
+  color: var(--text-color-white);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  margin-left: 300px;
+  margin-right: 500px;
+}
+.svgBlock {
+  display: flex;
+  gap: 25px;
+}
+.footerSvg {
+  width: 36px;
+  height: 36px;
+  fill: var(--text-color-white);
 }
