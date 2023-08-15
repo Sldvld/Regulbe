@@ -12,14 +12,14 @@ const Footer = () => {
         <div className={css.footerBlocks}>
           <nav className={css.footerNav}>
             <ul className={css.navList}>
-              <li className={css.navItem}>
-                <p>Terms & Conditions</p>
+              <li>
+                <NavLink className={css.navLink}>Terms & Conditions</NavLink>
               </li>
-              <li className={css.navItem}>
-                <p>Privacy Policy</p>
+              <li>
+                <NavLink className={css.navLink}>Privacy Policy</NavLink>
               </li>
-              <li className={css.navItem}>
-                <p>Careers</p>
+              <li>
+                <NavLink className={css.navLink}>Careers</NavLink>
               </li>
             </ul>
           </nav>

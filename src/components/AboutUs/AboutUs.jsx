@@ -18,18 +18,13 @@ const AboutUs = () => {
           <p className={css.aboutText}>
             Regulbe is a market access and regulatory intelligence service
             provider specializing in addressing regulatory compliance needs of
-            voice-over internet protocol (VoIP) and cloud-based communications
-            service providers around the world. Regulbe helps identify
-            regulatory requirements for accessing and operating in different
-            markets, obtain all necessary licenses and authorizations, and
-            identify regulatory risks and opportunities throughout the
-            telecommunications product lifecycle.
+            cloud-based communications service providers around the world.
           </p>
           <p className={css.aboutTextHelps}>
             Regulbe helps identify regulatory requirements for accessing and
             operating in different markets, obtain all necessary licenses and
             authorizations, and identify regulatory risks and opportunities
-            throughout the telecommunications product lifecycle.
+            throughout the product lifecycle.
           </p>
         </div>
       </div>

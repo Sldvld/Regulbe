@@ -14,10 +14,9 @@ const Pricing = () => {
             personalized fee quote.
           </li>
           <li className={css.pricingItem}>
-            To provide you with an accurate fee quote, we kindly request a brief
-            description of your question or project, along with a list of
-            countries for which you require information. All the requests remain
-            confidential.
+            We kindly request a brief description of your question or project,
+            along with a list of countries for which you require information.
+            All the requests remain confidential.
           </li>
         </ul>
         <ul className={css.pricingList}>

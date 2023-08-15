@@ -7,9 +7,9 @@ const Services = () => {
         <div>
           <h2 className={css.servicesHeader}>SERVICES</h2>
           <p className={css.servicesText}>
-            Provision of VoIP and cloud-based communications services across the
-            world require strong regulatory support to stay compliant with
-            applicable laws across multiple geographies.
+            Provision of cloud-based communications services require strong
+            regulatory support to stay compliant with applicable laws across
+            multiple geographies.
           </p>
           <p className={css.servicesText}>
             Identifying and decoding local requirements as well as staying
