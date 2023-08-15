@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import backgroundImg from '../../assets/bckg.jpg';
 import css from './HeroSection.module.css';
 
@@ -13,13 +14,14 @@ const HeroSection = () => {
         <div className={css.heroContainer}>
           <h1 className={css.heroText}>
             <span className={css.logoDecoration}>Regulbe </span>- regulatory
-            compliance services for
-            <span className={css.logoDecoration}> VoIP</span> and cloud - based
-            communications service providers
+            compliance services for VoIP and cloud - based communications
+            service providers
           </h1>
-          <button type="button" className={css.heroButton}>
-            Contact us →
-          </button>
+          <div>
+            <NavLink className={css.contactUsButton} to="/contactus">
+              Contact us →
+            </NavLink>
+          </div>
         </div>
       </div>
     </div>

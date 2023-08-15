@@ -35,8 +35,15 @@
   line-height: 24px;
   letter-spacing: 0em;
   padding: 25px 55px;
+  border: 1px solid #ffffff;
   border-radius: 50px;
   background: var(--text-color-white);
   color: #4f86e3;
   position: relative;
+  transition: background-color 0.3s linear, color 0.3s linear;
+}
+.contactUsButton:hover,
+.contactUsButton:focus {
+  background: transparent;
+  color: var(--text-color-white);
 }

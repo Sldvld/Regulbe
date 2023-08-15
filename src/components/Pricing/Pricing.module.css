@@ -49,4 +49,11 @@
   -webkit-background-clip: text;
   background-clip: text;
   border: 1px solid #4f86e3;
+  transition: background-color 0.3s linear, color 0.3s linear;
+}
+
+.feeButton:hover,
+.feeButton:focus {
+  background: var(--gradient-text);
+  color: var(--text-color-white);
 }
