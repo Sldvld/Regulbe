@@ -66,11 +66,10 @@
   background: var(--gradient-text);
   color: var(--text-color-white);
   position: relative;
-  transition: background-color 0.3s linear, color 0.3s linear;
+  transition: background-color 0.3s linear;
 }
 
 .contactUsButton:hover,
 .contactUsButton:focus {
-  background: #4585f1;
-  color: var(--text-color-white);
+  background: linear-gradient(103.88deg, #4f86e3 99.98%, #898af4 1%);
 }
