@@ -1,4 +1,3 @@
-import { NavLink } from 'react-router-dom';
 import backgroundImg from '../../assets/bckg.jpg';
 import css from './HeroSection.module.css';
 
@@ -17,11 +16,10 @@ const HeroSection = () => {
             compliance services for VoIP and cloud - based communications
             service providers
           </h1>
-          <div>
-            <NavLink className={css.contactUsButton} to="/contactus">
-              Contact us →
-            </NavLink>
-          </div>
+
+          <button type="button" className={css.contactUsButton} to="/contactus">
+            Contact us →
+          </button>
         </div>
       </div>
     </div>

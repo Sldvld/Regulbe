@@ -25,14 +25,19 @@ const Footer = () => {
           </nav>
           <p className={css.footerCopyright}> © Regulbe - Copyright 2023</p>
           <div className={css.svgBlock}>
-            <NavLink to="https://www.linkedin.com/company/regulbe-ka/">
+            <NavLink
+              className={css.socialLink}
+              to="https://www.linkedin.com/company/regulbe-ka/"
+            >
               <svg className={css.footerSvg}>
                 <use href={sprite + '#linkedin'} />
               </svg>
             </NavLink>
-            {/* <svg className={css.footerSvg}>
-              <use href={sprite + '#fb'} />
-            </svg> */}
+            {/* <NavLink to="https://www.linkedin.com/company/regulbe-ka/">
+              <svg className={css.footerSvg}>
+                <use href={sprite + '#fb'} />
+              </svg>
+            </NavLink> */}
           </div>
         </div>
       </div>

@@ -4,6 +4,7 @@
 }
 .footerBlocks {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 .footerLabel {
@@ -32,21 +33,27 @@
 }
 .footerCopyright {
   display: block;
+  margin-left: -250px;
   color: var(--text-color-white);
   font-size: 16px;
   font-weight: 500;
   line-height: 21px;
   letter-spacing: 0.02em;
   text-align: left;
-  margin-left: 300px;
-  margin-right: 500px;
 }
 .svgBlock {
   display: flex;
   gap: 25px;
 }
-.footerSvg {
+.socialLink {
+  display: block;
   width: 36px;
   height: 36px;
-  fill: var(--text-color-white);
+  border-radius: 50%;
+  color: var(--text-color-white);
+  transition: color 0.3s ease-in-out;
+}
+.socialLink:hover,
+.socialLink:focus {
+  color: var(--background-color-grey);
 }
