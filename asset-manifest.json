@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/Regulbe/static/css/main.2bf43d0c.css",
-    "main.js": "/Regulbe/static/js/main.a9b9e62c.js",
-    "static/css/93.7eccde64.chunk.css": "/Regulbe/static/css/93.7eccde64.chunk.css",
-    "static/js/93.71c04ebd.chunk.js": "/Regulbe/static/js/93.71c04ebd.chunk.js",
+    "main.js": "/Regulbe/static/js/main.2a597d8f.js",
+    "static/css/579.bf6a7dd4.chunk.css": "/Regulbe/static/css/579.bf6a7dd4.chunk.css",
+    "static/js/579.e70c7b2b.chunk.js": "/Regulbe/static/js/579.e70c7b2b.chunk.js",
     "static/css/698.40228e61.chunk.css": "/Regulbe/static/css/698.40228e61.chunk.css",
     "static/js/698.12c4bb94.chunk.js": "/Regulbe/static/js/698.12c4bb94.chunk.js",
     "static/css/625.845fc047.chunk.css": "/Regulbe/static/css/625.845fc047.chunk.css",
@@ -11,11 +11,12 @@
     "static/media/map.svg": "/Regulbe/static/media/map.e0bd0aaeeac688b95d4fd9d78be8f900.svg",
     "static/media/bckg.jpg": "/Regulbe/static/media/bckg.676b016b1fe23c7b7ddf.jpg",
     "static/media/working-process.jpg": "/Regulbe/static/media/working-process.49ff724acc7c210fab8b.jpg",
+    "static/media/sprite.svg": "/Regulbe/static/media/sprite.ad9215a89ff361e20ed7aa996efa8d25.svg",
     "index.html": "/Regulbe/index.html",
     "main.2bf43d0c.css.map": "/Regulbe/static/css/main.2bf43d0c.css.map",
-    "main.a9b9e62c.js.map": "/Regulbe/static/js/main.a9b9e62c.js.map",
-    "93.7eccde64.chunk.css.map": "/Regulbe/static/css/93.7eccde64.chunk.css.map",
-    "93.71c04ebd.chunk.js.map": "/Regulbe/static/js/93.71c04ebd.chunk.js.map",
+    "main.2a597d8f.js.map": "/Regulbe/static/js/main.2a597d8f.js.map",
+    "579.bf6a7dd4.chunk.css.map": "/Regulbe/static/css/579.bf6a7dd4.chunk.css.map",
+    "579.e70c7b2b.chunk.js.map": "/Regulbe/static/js/579.e70c7b2b.chunk.js.map",
     "698.40228e61.chunk.css.map": "/Regulbe/static/css/698.40228e61.chunk.css.map",
     "698.12c4bb94.chunk.js.map": "/Regulbe/static/js/698.12c4bb94.chunk.js.map",
     "625.845fc047.chunk.css.map": "/Regulbe/static/css/625.845fc047.chunk.css.map",
@@ -23,6 +24,6 @@
   },
   "entrypoints": [
     "static/css/main.2bf43d0c.css",
-    "static/js/main.a9b9e62c.js"
+    "static/js/main.2a597d8f.js"
   ]
 }
