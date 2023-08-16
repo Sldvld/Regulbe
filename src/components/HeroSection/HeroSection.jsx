@@ -18,7 +18,7 @@ const HeroSection = () => {
           </h1>
 
           <button type="button" className={css.contactUsButton} to="/contactus">
-            Contact us
+            <span className={css.buttonText}>Contact us</span>
             <svg className={css.arrowSvg}>
               <use href={sprite + '#icon-arrow'} />
             </svg>

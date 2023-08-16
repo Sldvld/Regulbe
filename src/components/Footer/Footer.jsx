@@ -33,11 +33,14 @@ const Footer = () => {
                 <use href={sprite + '#linkedin'} />
               </svg>
             </NavLink>
-            {/* <NavLink to="https://www.linkedin.com/company/regulbe-ka/">
+            <NavLink
+              to="https://www.linkedin.com/company/regulbe-ka/"
+              className={css.socialLink}
+            >
               <svg className={css.footerSvg}>
-                <use href={sprite + '#fb'} />
+                <use href={sprite + '#icon-fb'} />
               </svg>
-            </NavLink> */}
+            </NavLink>
           </div>
         </div>
       </div>

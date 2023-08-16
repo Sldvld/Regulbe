@@ -39,7 +39,7 @@
   content: '';
   position: absolute;
   width: 100%;
-  height: 2px;
+  height: 1px;
   background-color: var(--text-color-white);
   bottom: -2px;
   left: 0;
@@ -65,17 +65,30 @@
 }
 .svgBlock {
   display: flex;
+  flex-direction: row;
+  align-items: center;
   gap: 25px;
 }
+.footerSvg {
+  width: 32px;
+  height: 32px;
+}
 .socialLink {
-  display: block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 36px;
   height: 36px;
   border-radius: 50%;
   color: var(--text-color-white);
-  transition: color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  border: 1px solid transparent;
+  box-sizing: content-box;
+  padding: 0;
+  margin: 0;
 }
+
 .socialLink:hover,
 .socialLink:focus {
-  color: var(--background-color-grey);
+  border-color: white;
 }

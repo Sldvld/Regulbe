@@ -61,7 +61,7 @@ const Layout = () => {
             </li>
           </ul>
           <ul className={css.headerLists}>
-            <li>
+            <li className={css.clientPortalBlock}>
               <NavLink className={css.headerLinkPortal} to="/clientportal">
                 CLIENT PORTAL
               </NavLink>
