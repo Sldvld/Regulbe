@@ -14,7 +14,8 @@ const HeroSection = () => {
         <div className={css.heroContainer}>
           <h1 className={css.heroText}>
             <span className={css.logoDecoration}>Regulbe </span> - regulatory
-            compliance services cloud - based communications service providers
+            compliance services for cloud - based communications service
+            providers
           </h1>
 
           <button type="button" className={css.contactUsButton} to="/contactus">
