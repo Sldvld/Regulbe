@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import { Outlet } from 'react-router-dom';
 import { Suspense } from 'react';
-import sprite from '../../assets/sprite.svg';
+import logo from '../../assets/logo-regulbe.svg';
 import css from './Layout.module.css';
 
 const Layout = () => {
@@ -14,13 +14,10 @@ const Layout = () => {
 
   return (
     <>
-      <svg className={css.logo} width="48px" height="48px">
-        <use href={sprite + '#logo'} />
-      </svg>
       <div className={css.container}>
         <header className={css.headerBox}>
           <NavLink className={css.headerLogo} to="/">
-            Regulbe
+            <img src={logo} alt="Logo" className={css.logo} />
           </NavLink>
           <ul className={css.headerLists}>
             <li>

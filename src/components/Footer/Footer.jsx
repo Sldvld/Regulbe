@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom';
+import logo from '../../assets/white-logo-regulbe.svg';
 import css from './Footer.module.css';
 import sprite from '../../assets/sprite.svg';
 
@@ -7,7 +8,7 @@ const Footer = () => {
     <footer>
       <div className={css.footerWraper}>
         <NavLink className={css.footerLabel} to="/">
-          Regulbe
+          <img src={logo} alt="Logo" className={css.logo} />
         </NavLink>
         <div className={css.footerBlocks}>
           <nav className={css.footerNav}>

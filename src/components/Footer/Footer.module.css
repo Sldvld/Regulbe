@@ -1,6 +1,6 @@
 .footerWraper {
   background: var(--gradient-text);
-  padding: 93px 15px;
+  padding: 65px 15px;
 }
 .footerBlocks {
   display: flex;
@@ -9,13 +9,7 @@
 }
 .footerLabel {
   text-decoration: none;
-  color: var(--text-color-white);
-  padding-bottom: 20px;
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 24px;
-  letter-spacing: 0em;
-  text-align: left;
+  margin-bottom: 20px;
 }
 .navList {
   display: flex;
