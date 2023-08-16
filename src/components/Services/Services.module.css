@@ -36,13 +36,49 @@
 }
 
 .servicesPrinciples {
-  display: block;
+  display: flex;
+  flex-direction: row;
   height: 283px;
   width: 750px;
   margin-left: auto;
   border-radius: 20px;
   background: var(--gradient-text);
 }
-.servicesBlocks {
+.servicesList {
+  display: flex;
+  flex-direction: row;
   list-style: none;
+  margin: 0;
+  padding: 100px 24px;
+  gap: 20px;
+}
+.servicesItem {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  background-color: var(--text-color-white);
+  width: 221px;
+  height: 318px;
+  border-radius: 20px;
+}
+.servicesIconAround {
+  margin-top: 50px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: var(--background-color-grey);
+}
+.servicesIcons {
+  fill: #4f86e3;
+}
+.servicesDescription {
+  display: block;
+  margin: 35px 30px 57px 30px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 1.2;
 }

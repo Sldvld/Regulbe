@@ -1,4 +1,5 @@
 import css from './Services.module.css';
+import sprite from '../../assets/sprite.svg';
 
 const Services = () => {
   return (
@@ -22,15 +23,40 @@ const Services = () => {
           </p>
         </div>
         <div className={css.servicesPrinciples}>
-          <ul>
+          <ul className={css.servicesList}>
             <li className={css.servicesBlocks}>
-              <div></div>
+              <div className={css.servicesItem}>
+                <div className={css.servicesIconAround}>
+                  <svg className={css.servicesIcons} width="48px" height="48px">
+                    <use href={sprite + '#db'} />
+                  </svg>
+                </div>
+                <p className={css.servicesDescription}>
+                  Access to databases with regulatory compliance information
+                </p>
+              </div>
             </li>
             <li className={css.servicesBlocks}>
-              <div></div>
+              <div className={css.servicesItem}>
+                <div className={css.servicesIconAround}>
+                  <svg className={css.servicesIcons} width="40px" height="40px">
+                    <use href={sprite + '#loop'} />
+                  </svg>
+                </div>
+                <p className={css.servicesDescription}>Regulatory research</p>
+              </div>
             </li>
             <li className={css.servicesBlocks}>
-              <div></div>
+              <div className={css.servicesItem}>
+                <div className={css.servicesIconAround}>
+                  <svg className={css.servicesIcons} width="32px" height="40px">
+                    <use href={sprite + '#letter'} />
+                  </svg>
+                </div>
+                <p className={css.servicesDescription}>
+                  Regulatory compliance product assessment
+                </p>
+              </div>
             </li>
           </ul>
         </div>
