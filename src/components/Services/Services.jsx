@@ -31,9 +31,7 @@ const Services = () => {
                     <use href={sprite + '#db'} />
                   </svg>
                 </div>
-                <p className={css.servicesDescription}>
-                  Access to databases with regulatory compliance information
-                </p>
+                <p className={css.servicesDescription}>Regulatory data</p>
               </div>
             </li>
             <li className={css.servicesBlocks}>
