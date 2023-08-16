@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/Regulbe/static/css/main.6eb7cffd.css",
-    "main.js": "/Regulbe/static/js/main.75b9d792.js",
-    "static/css/579.575b05ea.chunk.css": "/Regulbe/static/css/579.575b05ea.chunk.css",
-    "static/js/579.cb64705c.chunk.js": "/Regulbe/static/js/579.cb64705c.chunk.js",
-    "static/css/698.40228e61.chunk.css": "/Regulbe/static/css/698.40228e61.chunk.css",
-    "static/js/698.12c4bb94.chunk.js": "/Regulbe/static/js/698.12c4bb94.chunk.js",
-    "static/css/625.845fc047.chunk.css": "/Regulbe/static/css/625.845fc047.chunk.css",
-    "static/js/625.38425ef4.chunk.js": "/Regulbe/static/js/625.38425ef4.chunk.js",
-    "static/media/map.svg": "/Regulbe/static/media/map.e0bd0aaeeac688b95d4fd9d78be8f900.svg",
-    "static/media/bckg.jpg": "/Regulbe/static/media/bckg.676b016b1fe23c7b7ddf.jpg",
-    "static/media/working-process.jpg": "/Regulbe/static/media/working-process.49ff724acc7c210fab8b.jpg",
-    "static/media/sprite.svg": "/Regulbe/static/media/sprite.4b3656c56da941f305215c4a87167679.svg",
-    "index.html": "/Regulbe/index.html",
-    "main.6eb7cffd.css.map": "/Regulbe/static/css/main.6eb7cffd.css.map",
-    "main.75b9d792.js.map": "/Regulbe/static/js/main.75b9d792.js.map",
-    "579.575b05ea.chunk.css.map": "/Regulbe/static/css/579.575b05ea.chunk.css.map",
-    "579.cb64705c.chunk.js.map": "/Regulbe/static/js/579.cb64705c.chunk.js.map",
-    "698.40228e61.chunk.css.map": "/Regulbe/static/css/698.40228e61.chunk.css.map",
-    "698.12c4bb94.chunk.js.map": "/Regulbe/static/js/698.12c4bb94.chunk.js.map",
-    "625.845fc047.chunk.css.map": "/Regulbe/static/css/625.845fc047.chunk.css.map",
-    "625.38425ef4.chunk.js.map": "/Regulbe/static/js/625.38425ef4.chunk.js.map"
+    "main.css": "/regulbe/static/css/main.6eb7cffd.css",
+    "main.js": "/regulbe/static/js/main.66c6b7ee.js",
+    "static/css/579.575b05ea.chunk.css": "/regulbe/static/css/579.575b05ea.chunk.css",
+    "static/js/579.cb64705c.chunk.js": "/regulbe/static/js/579.cb64705c.chunk.js",
+    "static/css/698.40228e61.chunk.css": "/regulbe/static/css/698.40228e61.chunk.css",
+    "static/js/698.12c4bb94.chunk.js": "/regulbe/static/js/698.12c4bb94.chunk.js",
+    "static/css/625.845fc047.chunk.css": "/regulbe/static/css/625.845fc047.chunk.css",
+    "static/js/625.38425ef4.chunk.js": "/regulbe/static/js/625.38425ef4.chunk.js",
+    "static/media/map.svg": "/regulbe/static/media/map.e0bd0aaeeac688b95d4fd9d78be8f900.svg",
+    "static/media/bckg.jpg": "/regulbe/static/media/bckg.676b016b1fe23c7b7ddf.jpg",
+    "static/media/working-process.jpg": "/regulbe/static/media/working-process.49ff724acc7c210fab8b.jpg",
+    "static/media/sprite.svg": "/regulbe/static/media/sprite.4b3656c56da941f305215c4a87167679.svg",
+    "index.html": "/regulbe/index.html",
+    "main.6eb7cffd.css.map": "/regulbe/static/css/main.6eb7cffd.css.map",
+    "main.66c6b7ee.js.map": "/regulbe/static/js/main.66c6b7ee.js.map",
+    "579.575b05ea.chunk.css.map": "/regulbe/static/css/579.575b05ea.chunk.css.map",
+    "579.cb64705c.chunk.js.map": "/regulbe/static/js/579.cb64705c.chunk.js.map",
+    "698.40228e61.chunk.css.map": "/regulbe/static/css/698.40228e61.chunk.css.map",
+    "698.12c4bb94.chunk.js.map": "/regulbe/static/js/698.12c4bb94.chunk.js.map",
+    "625.845fc047.chunk.css.map": "/regulbe/static/css/625.845fc047.chunk.css.map",
+    "625.38425ef4.chunk.js.map": "/regulbe/static/js/625.38425ef4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6eb7cffd.css",
-    "static/js/main.75b9d792.js"
+    "static/js/main.66c6b7ee.js"
   ]
 }
