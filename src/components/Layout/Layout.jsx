@@ -14,7 +14,7 @@ const Layout = () => {
 
   return (
     <>
-      <svg className={css.servicesIcons} width="48px" height="48px">
+      <svg className={css.logo} width="48px" height="48px">
         <use href={sprite + '#logo'} />
       </svg>
       <div className={css.container}>
