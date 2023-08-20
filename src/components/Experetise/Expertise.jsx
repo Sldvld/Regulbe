@@ -8,9 +8,9 @@ const Expertise = () => {
         <div className={css.expertiseTextBlock}>
           <span className={css.expertiseText}>Market access</span>
           <span className={css.expertiseText}>Licensing</span>
-          <span className={css.expertiseText}>Regulatory Reporting</span>
+          <span className={css.expertiseText}>Regulatory reporting</span>
           <span className={css.expertiseText}>Billing requirements</span>
-          <span className={css.expertiseText}>Licensing Fees</span>
+          <span className={css.expertiseText}>Licensing fees</span>
           <span className={css.expertiseText}>Numbering: allocation</span>
           <span className={css.expertiseText}>Numbering: sub-allocation</span>
           <span className={css.expertiseText}>
@@ -20,9 +20,9 @@ const Expertise = () => {
             Numbering: territoriality restrictions
           </span>
           <span className={css.expertiseText}>Numbering: fees</span>
-          <span className={css.expertiseText}>Lawful Interception</span>
+          <span className={css.expertiseText}>Lawful interception</span>
           <span className={css.expertiseText}>
-            Lawful Enforcement: customer data disclosure
+            Lawful enforcement: customer data disclosure
           </span>
           <span className={css.expertiseText}>Data retention</span>
           <span className={css.expertiseText}>Incident reporting</span>

@@ -35,7 +35,7 @@ const Footer = () => {
               </svg>
             </NavLink>
             <NavLink
-              to="https://www.linkedin.com/company/regulbe-ka/"
+              to="https://www.facebook.com/profile.php?id=61550063525783"
               className={css.socialLink}
             >
               <svg className={css.footerSvg}>
