@@ -1,31 +1,31 @@
 {
   "files": {
-    "main.css": "/regulbe/static/css/main.0755fae4.css",
-    "main.js": "/regulbe/static/js/main.66de8318.js",
-    "static/css/298.c5daa63a.chunk.css": "/regulbe/static/css/298.c5daa63a.chunk.css",
-    "static/js/298.90a4fedc.chunk.js": "/regulbe/static/js/298.90a4fedc.chunk.js",
+    "main.css": "/regulbe/static/css/main.56a13dc7.css",
+    "main.js": "/regulbe/static/js/main.41704c63.js",
+    "static/css/750.1dc7bb7c.chunk.css": "/regulbe/static/css/750.1dc7bb7c.chunk.css",
+    "static/js/750.728b3568.chunk.js": "/regulbe/static/js/750.728b3568.chunk.js",
     "static/css/698.40228e61.chunk.css": "/regulbe/static/css/698.40228e61.chunk.css",
-    "static/js/698.12c4bb94.chunk.js": "/regulbe/static/js/698.12c4bb94.chunk.js",
+    "static/js/698.4f37823f.chunk.js": "/regulbe/static/js/698.4f37823f.chunk.js",
     "static/css/625.845fc047.chunk.css": "/regulbe/static/css/625.845fc047.chunk.css",
     "static/js/625.38425ef4.chunk.js": "/regulbe/static/js/625.38425ef4.chunk.js",
     "static/media/map.svg": "/regulbe/static/media/map.e0bd0aaeeac688b95d4fd9d78be8f900.svg",
     "static/media/bckg.jpg": "/regulbe/static/media/bckg.676b016b1fe23c7b7ddf.jpg",
     "static/media/working-process.jpg": "/regulbe/static/media/working-process.49ff724acc7c210fab8b.jpg",
+    "static/media/sprite.svg": "/regulbe/static/media/sprite.2eea796b8f475c388f8566e0de27e0d8.svg",
     "static/media/logo-regulbe.svg": "/regulbe/static/media/logo-regulbe.1bec67260f85b1416b3cfbc8fcd8d853.svg",
-    "static/media/sprite.svg": "/regulbe/static/media/sprite.573e745333aafb1c1d927c37b6889622.svg",
     "static/media/white-logo-regulbe.svg": "/regulbe/static/media/white-logo-regulbe.4777666b55174575c8699331861881e9.svg",
     "index.html": "/regulbe/index.html",
-    "main.0755fae4.css.map": "/regulbe/static/css/main.0755fae4.css.map",
-    "main.66de8318.js.map": "/regulbe/static/js/main.66de8318.js.map",
-    "298.c5daa63a.chunk.css.map": "/regulbe/static/css/298.c5daa63a.chunk.css.map",
-    "298.90a4fedc.chunk.js.map": "/regulbe/static/js/298.90a4fedc.chunk.js.map",
+    "main.56a13dc7.css.map": "/regulbe/static/css/main.56a13dc7.css.map",
+    "main.41704c63.js.map": "/regulbe/static/js/main.41704c63.js.map",
+    "750.1dc7bb7c.chunk.css.map": "/regulbe/static/css/750.1dc7bb7c.chunk.css.map",
+    "750.728b3568.chunk.js.map": "/regulbe/static/js/750.728b3568.chunk.js.map",
     "698.40228e61.chunk.css.map": "/regulbe/static/css/698.40228e61.chunk.css.map",
-    "698.12c4bb94.chunk.js.map": "/regulbe/static/js/698.12c4bb94.chunk.js.map",
+    "698.4f37823f.chunk.js.map": "/regulbe/static/js/698.4f37823f.chunk.js.map",
     "625.845fc047.chunk.css.map": "/regulbe/static/css/625.845fc047.chunk.css.map",
     "625.38425ef4.chunk.js.map": "/regulbe/static/js/625.38425ef4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0755fae4.css",
-    "static/js/main.66de8318.js"
+    "static/css/main.56a13dc7.css",
+    "static/js/main.41704c63.js"
   ]
 }
