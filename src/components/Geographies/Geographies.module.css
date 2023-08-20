@@ -21,13 +21,77 @@
   text-align: left;
 }
 .licationItem {
-  margin-bottom: 30px;
+  cursor: pointer;
+  font-family: 'Neue Haas Grotesk Display Pro';
   font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  border: none;
+  border-radius: 40px;
+}
+.geographiesMap {
+  margin-left: 50px;
+  max-width: 620px;
+}
+
+.accordion {
+  width: 750px;
+}
+
+.item {
+  font-family: 'Neue Haas Grotesk Display Pro';
+  font-size: 22px;
   font-weight: 500;
+  line-height: 31px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  border-bottom: 1px solid var(--text-color-black);
+}
+.dotItem {
+  margin: 0px 12px;
+}
+
+.itemBtn {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 30px 0px 20px 0px;
+  text-align: left;
+  color: var(--text-color-black);
+  background-color: transparent;
+  border: none;
+  font-family: 'Neue Haas Grotesk Display Pro';
+  font-size: 20px;
+  font-weight: 600;
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
 }
-.geographiesMap {
-  max-width: 840;
+
+.itemBtn:hover {
+  background-color: #f3f3f3;
+}
+
+.itemBtnExpanded {
+  background-color: var(--background-color-grey);
+}
+
+.itemContent {
+  transition: height 0.25s cubic-bezier(0, 0, 0, 1);
+}
+
+.itemPanel {
+  padding: 1rem;
+}
+
+.arrowSvg {
+  margin-left: auto;
+  transition: transform 0.25s cubic-bezier(0, 0, 0, 1);
+}
+
+.itemBtnExpanded .arrowSvg {
+  transform: rotate(180deg);
 }

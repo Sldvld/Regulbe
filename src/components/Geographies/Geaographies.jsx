@@ -1,71 +1,78 @@
-import css from './Geographies.module.css';
 import Map from '../../assets/map.svg';
+import arr from '../../assets/sprite.svg';
 
-// const Geographies = () => {
-//   return (
-//     <div className={css.geographiesSection} id="geographies">
-//       <div className={css.geographiesWrapper}>
-//         <div className={css.geographiesTextBlock}>
-//           <h2 className={css.geographiesHeader}>GEOGRAPHIES</h2>
-//           <p className={css.geographiesLocation}>Asia - Pacific (11)</p>
-//           <p className={css.geographiesLocation}>Eastern Europe (9)</p>
-//           <p className={css.geographiesLocation}>Western Europe (18)</p>
-//           <p className={css.geographiesLocation}>Latin America (7)</p>
-//           <p className={css.geographiesLocation}>North America (2)</p>
-//         </div>
-//         <img className={css.geographiesMap} src={Map} alt="" />
-//       </div>
-//     </div>
-//   );
-// };
+import { Accordion, AccordionItem as Item } from '@szhsin/react-accordion';
+import styles from './Geographies.module.css';
 
-// export default Geographies;
+const AccordionItem = ({ header, ...rest }) => (
+  <Item
+    {...rest}
+    header={
+      <>
+        {header}
+        <svg width="24" height="24" className={styles.arrowSvg}>
+          <use href={arr + '#arr-down'} />
+        </svg>
+      </>
+    }
+    className={styles.item}
+    buttonProps={{
+      className: ({ isEnter }) =>
+        `${styles.itemBtn} ${isEnter && styles.itemBtnExpanded}`,
+    }}
+    contentProps={{ className: styles.itemContent }}
+    panelProps={{ className: styles.itemPanel }}
+  />
+);
 
-import { Accordion, AccordionItem } from '@szhsin/react-accordion';
-
-const Example = () => {
+const Acc = () => {
   return (
-    <div className={css.geographiesSection} id="geographies">
-      <div className={css.geographiesTextBlock}>
-        <div className={css.accordion}>
-          <Accordion allowMultiple>
-            <AccordionItem
-              header={
-                <div>
-                  <p className={css.licationItem}>Asia - Pacific (11)</p>
-                </div>
-              }
-            >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </AccordionItem>
+    <div className={styles.geographiesSection} id="geographies">
+      <div className={styles.geographiesWrapper}>
+        <div className={styles.geographiesTextBlock}>
+          <h2 className={styles.geographiesHeader}>GEOGRAPHIES</h2>
+          <div className={styles.accordion}>
+            {/* `transitionTimeout` prop should be equal to the transition duration in CSS */}
+            <Accordion allowMultiple transition transitionTimeout={250}>
+              <AccordionItem header="Asia - Pacific (11)">
+                Australia <span className={styles.dotItem}>&#8226;</span> New
+                Zeland <span className={styles.dotItem}>&#8226;</span> Hong Kong
+                <span className={styles.dotItem}>&#8226;</span> India
+                <span className={styles.dotItem}>&#8226;</span> Indinesia
+                <span className={styles.dotItem}>&#8226;</span> Japan
+                <span className={styles.dotItem}>&#8226;</span> Malaysia
+                <span className={styles.dotItem}>&#8226;</span> Philippines
+                <span className={styles.dotItem}>&#8226;</span> South Korea
+                <span className={styles.dotItem}>&#8226;</span> Singapore
+                <span className={styles.dotItem}>&#8226;</span> Thailand
+              </AccordionItem>
 
-            <AccordionItem header="Eastern Europe (9)">
-              Quisque eget luctus mi, vehicula mollis lorem. Proin fringilla vel
-              erat quis sodales. Nam ex enim, eleifend venenatis lectus vitae,
-              accumsan auctor mi.
-            </AccordionItem>
+              <AccordionItem header="Eastern Europe (9)">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Veritatis deserunt fuga sunt architecto, itaque iste!
+              </AccordionItem>
 
-            <AccordionItem header="Western Europe (18)">
-              Suspendisse massa risus, pretium id interdum in, dictum sit amet
-              ante. Fusce vulputate purus sed tempus feugiat.
-            </AccordionItem>
+              <AccordionItem header="Western Europe (18)">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Veritatis deserunt fuga sunt architecto, itaque iste!
+              </AccordionItem>
 
-            <AccordionItem header="Latin America (7)">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </AccordionItem>
+              <AccordionItem header="Latin America (7)">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Veritatis deserunt fuga sunt architecto, itaque iste!
+              </AccordionItem>
 
-            <AccordionItem header="North America (2)">
-              Quisque eget luctus mi, vehicula mollis lorem. Proin fringilla vel
-              erat quis sodales. Nam ex enim, eleifend venenatis lectus vitae,
-              accumsan auctor mi.
-            </AccordionItem>
-          </Accordion>
+              <AccordionItem header="North America (2)">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Veritatis deserunt fuga sunt architecto, itaque iste!
+              </AccordionItem>
+            </Accordion>
+          </div>
         </div>
+        <img className={styles.geographiesMap} src={Map} alt="Map" />
       </div>
     </div>
   );
 };
 
-export default Example;
+export default Acc;
