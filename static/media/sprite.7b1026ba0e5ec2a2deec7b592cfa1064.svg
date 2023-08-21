@@ -1,5 +1,10 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
+
+<symbol id="icon-dot-gradient" fill="#4f86e3" viewBox="0 0 32 32">
+<path d="M16 0c-4.243 0-8.313 1.686-11.314 4.686s-4.686 7.070-4.686 11.314c0 4.243 1.686 8.313 4.686 11.314s7.070 4.686 11.314 4.686c8.88 0 16-7.12 16-16 0-4.243-1.686-8.313-4.686-11.314s-7.070-4.686-11.314-4.686z"></path>
+</symbol>
+
 <symbol id="icon-arrow" viewBox="0 0 41 32" fill="#4f86e3">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.4286" d="M2.286 16h36.571M38.857 16l-13.714 13.714M38.857 16l-13.714-13.714"></path>
 </symbol>
