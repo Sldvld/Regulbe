@@ -10,7 +10,7 @@ const AccordionItem = ({ header, ...rest }) => (
       <>
         {header}
         <svg width="24" height="24" className={styles.arrowSvg}>
-          <use href={arr + '#arr-down'} />
+          <use href={arr + '#icon-arr-down'} />
         </svg>
       </>
     }
