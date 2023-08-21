@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import css from '../Layout.module.css';
+import css from './MainNavigation.module.css';
 
 const MainNavigation = () => {
   const scrollToSection = sectionId => {

@@ -1,3 +1,4 @@
+import Header from 'components/Header/Header';
 import React, { useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import sprite from '../../assets/sprite.svg';
@@ -9,6 +10,7 @@ const TermsAndConditions = () => {
   }, []);
   return (
     <>
+      <Header />
       <div className={css.termsSection}>
         <div className={css.termsWrapper}>
           <div className={css.termsNavigate}>

@@ -1,35 +1,13 @@
-import { NavLink, Outlet, useLocation } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 import { Suspense } from 'react';
 import Footer from 'components/Footer/Footer';
-import MainNavigation from './MainNavigation/MainNavigation';
-import logo from '../../assets/logo-regulbe.svg';
-import css from './Layout.module.css';
 
-const Layout = ({ children }) => {
-  const location = useLocation();
-  const shouldShowNavigation = location.pathname !== '/termsandconditions';
-
+const Layout = () => {
   return (
     <>
-      <div className={css.container}>
-        <header className={css.headerBox}>
-          <NavLink className={css.headerLogo} to="/">
-            <img src={logo} alt="Logo" className={css.logo} />
-          </NavLink>
-          {shouldShowNavigation && <MainNavigation />}
-          <ul className={css.headerLists}>
-            <li className={css.clientPortalBlock}>
-              <NavLink className={css.headerLinkPortal} to="/clientportal">
-                CLIENT PORTAL
-              </NavLink>
-            </li>
-          </ul>
-        </header>
-      </div>
       <main>
         <Suspense>
           <Outlet />
-          {children}
         </Suspense>
       </main>
       <Footer />

@@ -6,6 +6,7 @@ import Expertise from 'components/Experetise/Expertise';
 import Questions from 'components/Questions/Questions';
 import Pricing from 'components/Pricing/Pricing';
 import Geographies from 'components/Geographies/Geaographies';
+import Header from 'components/Header/Header';
 
 const Home = () => {
   useEffect(() => {
@@ -13,6 +14,7 @@ const Home = () => {
   }, []);
   return (
     <>
+      <Header />
       <HeroSection />
       <AboutUs />
       <Services />
