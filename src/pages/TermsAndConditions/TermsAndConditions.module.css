@@ -1,0 +1,66 @@
+.termsSection {
+  padding: 150px 0px;
+}
+.termsWrapper {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1500px;
+  padding: 210px 15px 150px 15px;
+}
+.termsNavigate {
+  display: flex;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.termsHomeLink {
+  display: block;
+  text-decoration: none;
+  color: var(--text-color-black);
+}
+.termsTitle {
+  display: block;
+  color: var(--primary-color);
+}
+.termsHeader {
+  display: block;
+  margin-top: 75px;
+}
+.updaterBlock {
+  display: flex;
+  justify-content: end;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.updaterText {
+  color: var(--primary-color);
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 31px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.updaterData {
+  color: var(--primary-color);
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 31px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.termsText {
+  display: block;
+  margin-top: 25px;
+  color: var(--text-color-black);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.dotSvg {
+  margin: 0px 15px;
+}

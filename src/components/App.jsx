@@ -5,6 +5,9 @@ import Layout from './Layout/Layout';
 const Home = lazy(() => import('pages/Home/Home'));
 const ClientPortal = lazy(() => import('pages/ClientPortal/ClientPortal'));
 const ContactUs = lazy(() => import('pages/ContactUs/ContactUs'));
+const TermsAndConditions = lazy(() =>
+  import('pages/TermsAndConditions/TermsAndConditions')
+);
 
 export const App = () => {
   return (
@@ -13,6 +16,7 @@ export const App = () => {
         <Route index element={<Home />} />
         <Route path="/clientportal" element={<ClientPortal />} />
         <Route path="/contactus" element={<ContactUs />} />
+        <Route path="/termsandconditions" element={<TermsAndConditions />} />
       </Route>
     </Routes>
   );

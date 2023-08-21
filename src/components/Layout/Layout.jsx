@@ -1,16 +1,13 @@
-import { NavLink } from 'react-router-dom';
-import { Outlet } from 'react-router-dom';
+import { NavLink, Outlet, useLocation } from 'react-router-dom';
 import { Suspense } from 'react';
+import Footer from 'components/Footer/Footer';
+import MainNavigation from './MainNavigation/MainNavigation';
 import logo from '../../assets/logo-regulbe.svg';
 import css from './Layout.module.css';
 
-const Layout = () => {
-  const scrollToSection = sectionId => {
-    const section = document.getElementById(sectionId);
-    if (section) {
-      section.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
+const Layout = ({ children }) => {
+  const location = useLocation();
+  const shouldShowNavigation = location.pathname !== '/termsandconditions';
 
   return (
     <>
@@ -19,48 +16,7 @@ const Layout = () => {
           <NavLink className={css.headerLogo} to="/">
             <img src={logo} alt="Logo" className={css.logo} />
           </NavLink>
-          <ul className={css.headerLists}>
-            <li>
-              <NavLink
-                className={css.headerLink}
-                onClick={() => scrollToSection('about')}
-              >
-                ABOUT US
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                className={css.headerLink}
-                onClick={() => scrollToSection('services')}
-              >
-                SERVICES
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                className={css.headerLink}
-                onClick={() => scrollToSection('expertise')}
-              >
-                EXPERTISE
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                className={css.headerLink}
-                onClick={() => scrollToSection('geographies')}
-              >
-                GEOGRAPHIES
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                className={css.headerLink}
-                onClick={() => scrollToSection('pricing')}
-              >
-                PRICING
-              </NavLink>
-            </li>
-          </ul>
+          {shouldShowNavigation && <MainNavigation />}
           <ul className={css.headerLists}>
             <li className={css.clientPortalBlock}>
               <NavLink className={css.headerLinkPortal} to="/clientportal">
@@ -73,8 +29,10 @@ const Layout = () => {
       <main>
         <Suspense>
           <Outlet />
+          {children}
         </Suspense>
       </main>
+      <Footer />
     </>
   );
 };
