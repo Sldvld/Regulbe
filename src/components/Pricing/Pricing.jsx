@@ -1,4 +1,5 @@
 import css from './Pricing.module.css';
+import sprite from '../../assets/sprite.svg';
 
 const Pricing = () => {
   return (
@@ -32,7 +33,10 @@ const Pricing = () => {
         </ul>
       </div>
       <button className={css.feeButton} type="button">
-        Get a fee quote →
+        Get a fee quote
+        <svg className={css.arrowSvg} width="16" height="12">
+          <use href={sprite + '#icon-arrow'} />
+        </svg>
       </button>
     </div>
   );

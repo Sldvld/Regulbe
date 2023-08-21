@@ -48,8 +48,10 @@
   color: var(--text-color-white);
 }
 .arrowSvg {
-  fill: red;
+  stroke: #4f86e3;
   margin-left: 14px;
-  width: 16px;
-  height: 12px;
+  transition: stroke 0.3s linear, fill 0.3s linear;
+}
+.contactUsButton:hover .arrowSvg {
+  stroke: var(--text-color-white);
 }

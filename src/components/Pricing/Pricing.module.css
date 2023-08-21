@@ -34,6 +34,11 @@
   margin-bottom: 50px;
 }
 .feeButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  text-align: center;
   cursor: pointer;
   margin-left: 15px;
   border-radius: 200px;
@@ -56,4 +61,13 @@
 .feeButton:focus {
   background: var(--gradient-text);
   color: var(--text-color-white);
+}
+
+.arrowSvg {
+  stroke: #4f86e3;
+  margin-left: 14px;
+  transition: stroke 0.3s linear, fill 0.3s linear;
+}
+.feeButton:hover .arrowSvg {
+  stroke: var(--text-color-white);
 }

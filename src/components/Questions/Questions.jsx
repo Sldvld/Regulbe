@@ -12,7 +12,7 @@ const Questions = () => {
         </div>
         <NavLink className={css.contactUsButton} to="/contactus">
           Contact us
-          <svg className={css.arrowSvg}>
+          <svg className={css.arrowSvg} width="16" height="12">
             <use href={sprite + '#icon-arrow'} />
           </svg>
         </NavLink>

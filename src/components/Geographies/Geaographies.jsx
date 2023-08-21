@@ -1,6 +1,5 @@
 import Map from '../../assets/map.svg';
 import arr from '../../assets/sprite.svg';
-
 import { Accordion, AccordionItem as Item } from '@szhsin/react-accordion';
 import styles from './Geographies.module.css';
 
@@ -25,7 +24,7 @@ const AccordionItem = ({ header, ...rest }) => (
   />
 );
 
-const Acc = () => {
+const Geographies = () => {
   return (
     <div className={styles.geographiesSection} id="geographies">
       <div className={styles.geographiesWrapper}>
@@ -48,23 +47,49 @@ const Acc = () => {
               </AccordionItem>
 
               <AccordionItem header="Eastern Europe (9)">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Veritatis deserunt fuga sunt architecto, itaque iste!
+                Czech Republic <span className={styles.dotItem}>&#8226;</span>
+                Croatia <span className={styles.dotItem}>&#8226;</span> Hungary
+                <span className={styles.dotItem}>&#8226;</span> Poland
+                <span className={styles.dotItem}>&#8226;</span> Romania
+                <span className={styles.dotItem}>&#8226;</span> Slovakia
+                <span className={styles.dotItem}>&#8226;</span> Slovenia
+                <span className={styles.dotItem}>&#8226;</span> Latvia
+                <span className={styles.dotItem}>&#8226;</span> Lithuania
               </AccordionItem>
 
               <AccordionItem header="Western Europe (18)">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Veritatis deserunt fuga sunt architecto, itaque iste!
+                Austria <span className={styles.dotItem}>&#8226;</span> Belgium{' '}
+                <span className={styles.dotItem}>&#8226;</span> Denmark
+                <span className={styles.dotItem}>&#8226;</span> Finland
+                <span className={styles.dotItem}>&#8226;</span> France
+                <span className={styles.dotItem}>&#8226;</span> Germany
+                <span className={styles.dotItem}>&#8226;</span> Greece
+                <span className={styles.dotItem}>&#8226;</span> Ireland
+                <span className={styles.dotItem}>&#8226;</span> Italy
+                <span className={styles.dotItem}>&#8226;</span> Luxembourg
+                <span className={styles.dotItem}>&#8226;</span> Netherlands
+                <span className={styles.dotItem}>&#8226;</span> Norway
+                <span className={styles.dotItem}>&#8226;</span> Portugal
+                <span className={styles.dotItem}>&#8226;</span> Spain
+                <span className={styles.dotItem}>&#8226;</span> Sweden
+                <span className={styles.dotItem}>&#8226;</span> Switzerland
+                <span className={styles.dotItem}>&#8226;</span> Turkey
+                <span className={styles.dotItem}>&#8226;</span> United Kingdom
               </AccordionItem>
 
               <AccordionItem header="Latin America (7)">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Veritatis deserunt fuga sunt architecto, itaque iste!
+                Argentina <span className={styles.dotItem}>&#8226;</span>
+                Brasil <span className={styles.dotItem}>&#8226;</span> Colombia
+                <span className={styles.dotItem}>&#8226;</span> Chile
+                <span className={styles.dotItem}>&#8226;</span> Dominican
+                Republic
+                <span className={styles.dotItem}>&#8226;</span> Mexico
+                <span className={styles.dotItem}>&#8226;</span> Peru
               </AccordionItem>
 
               <AccordionItem header="North America (2)">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Veritatis deserunt fuga sunt architecto, itaque iste!
+                Canada <span className={styles.dotItem}>&#8226;</span>
+                United States
               </AccordionItem>
             </Accordion>
           </div>
@@ -75,4 +100,4 @@ const Acc = () => {
   );
 };
 
-export default Acc;
+export default Geographies;
