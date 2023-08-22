@@ -6,7 +6,10 @@ const HeroSection = () => {
   return (
     <div
       className={css.bckg}
-      style={{ backgroundImage: `url(${backgroundImg})` }}
+      style={{
+        backgroundImage: `url(${backgroundImg})`,
+        backgroundSize: '1920px auto',
+      }}
       role="img"
       aria-label="Background Image"
     >
