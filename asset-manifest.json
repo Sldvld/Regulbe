@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/regulbe/static/css/main.088227af.css",
-    "main.js": "/regulbe/static/js/main.0e7d0a50.js",
+    "main.js": "/regulbe/static/js/main.8ea55c45.js",
     "static/css/199.bf3b3968.chunk.css": "/regulbe/static/css/199.bf3b3968.chunk.css",
     "static/js/199.528ed0c2.chunk.js": "/regulbe/static/js/199.528ed0c2.chunk.js",
-    "static/css/411.95e3558b.chunk.css": "/regulbe/static/css/411.95e3558b.chunk.css",
-    "static/js/411.9c96e2fb.chunk.js": "/regulbe/static/js/411.9c96e2fb.chunk.js",
+    "static/css/411.47c61a8e.chunk.css": "/regulbe/static/css/411.47c61a8e.chunk.css",
+    "static/js/411.f321982c.chunk.js": "/regulbe/static/js/411.f321982c.chunk.js",
     "static/css/625.845fc047.chunk.css": "/regulbe/static/css/625.845fc047.chunk.css",
     "static/js/625.38425ef4.chunk.js": "/regulbe/static/js/625.38425ef4.chunk.js",
     "static/css/816.46501b3b.chunk.css": "/regulbe/static/css/816.46501b3b.chunk.css",
@@ -18,11 +18,11 @@
     "static/media/white-logo-regulbe.svg": "/regulbe/static/media/white-logo-regulbe.4777666b55174575c8699331861881e9.svg",
     "index.html": "/regulbe/index.html",
     "main.088227af.css.map": "/regulbe/static/css/main.088227af.css.map",
-    "main.0e7d0a50.js.map": "/regulbe/static/js/main.0e7d0a50.js.map",
+    "main.8ea55c45.js.map": "/regulbe/static/js/main.8ea55c45.js.map",
     "199.bf3b3968.chunk.css.map": "/regulbe/static/css/199.bf3b3968.chunk.css.map",
     "199.528ed0c2.chunk.js.map": "/regulbe/static/js/199.528ed0c2.chunk.js.map",
-    "411.95e3558b.chunk.css.map": "/regulbe/static/css/411.95e3558b.chunk.css.map",
-    "411.9c96e2fb.chunk.js.map": "/regulbe/static/js/411.9c96e2fb.chunk.js.map",
+    "411.47c61a8e.chunk.css.map": "/regulbe/static/css/411.47c61a8e.chunk.css.map",
+    "411.f321982c.chunk.js.map": "/regulbe/static/js/411.f321982c.chunk.js.map",
     "625.845fc047.chunk.css.map": "/regulbe/static/css/625.845fc047.chunk.css.map",
     "625.38425ef4.chunk.js.map": "/regulbe/static/js/625.38425ef4.chunk.js.map",
     "816.46501b3b.chunk.css.map": "/regulbe/static/css/816.46501b3b.chunk.css.map",
@@ -30,6 +30,6 @@
   },
   "entrypoints": [
     "static/css/main.088227af.css",
-    "static/js/main.0e7d0a50.js"
+    "static/js/main.8ea55c45.js"
   ]
 }
