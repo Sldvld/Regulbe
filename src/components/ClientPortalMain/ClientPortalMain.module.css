@@ -87,10 +87,24 @@
   padding: 8px;
   text-align: center;
 }
+.disclaimerBlock {
+  display: block;
+  margin-top: 50px;
+}
 .disclaimerTitle {
+  margin-top: 30px;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
-  text-align: left;
+  color: var(--text-color-black);
+}
+.disclaimerText {
+  display: block;
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  color: var(--text-color-black);
 }

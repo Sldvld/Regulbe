@@ -53,8 +53,8 @@ const ClientPortalMain = () => {
           </tbody>
         </table>
         <div className={css.disclaimerBlock}>
-          <h2 className={css.disclaimerTitle}>DISCLAIMER</h2>
-          <p>
+          <h2 className={css.disclaimerTitle}>DISCLAIMER:</h2>
+          <p className={css.disclaimerText}>
             The information provided on this website does not, and is not
             intended to, constitute legal advice, instead, all information,
             content, and materials available on this site are for general
@@ -65,7 +65,7 @@ const ClientPortalMain = () => {
             does not recommend or endorse the contents of the third-party
             websites.
           </p>
-          <p>
+          <p className={css.disclaimerText}>
             Readers of this website shoule contact their attorney to obtain
             advice with respect to any particular legal matter. No reader, user,
             or browther of this site should act or refrain from acting on the
