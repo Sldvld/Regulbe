@@ -1,17 +1,17 @@
-import { NavLink } from 'react-router-dom';
-import sprite from '../../assets/sprite.svg';
+// import { NavLink } from 'react-router-dom';
+// import sprite from '../../assets/sprite.svg';
 import css from './ClientPortalMain.module.css';
 
 const ClientPortalMain = () => {
   return (
     <section>
       <div className={css.mainSection}>
-        <NavLink className={css.backButton}>
+        {/* <NavLink className={css.backButton}>
           <svg className={css.arrowSvg} width="16" height="12">
             <use href={sprite + '#icon-arrow'} />
           </svg>
           Back to search
-        </NavLink>
+        </NavLink> */}
         <h1 className={css.mainHeader}>NOMANDIC NUMBERS</h1>
         <p className={css.updateData}>
           <span className={css.updateTitle}>Last update: </span>August 10, 2023
@@ -20,7 +20,7 @@ const ClientPortalMain = () => {
           <p className={css.shortDescription}>Short description</p>
           <p className={css.showHide}>Show/Hide</p>
         </div>
-        <table className={css.customTable}>
+        <table className={css.table}>
           <thead>
             <tr>
               <th>Country</th>
@@ -52,6 +52,30 @@ const ClientPortalMain = () => {
             ))}
           </tbody>
         </table>
+        <div className={css.disclaimerBlock}>
+          <h2 className={css.disclaimerTitle}>DISCLAIMER</h2>
+          <p>
+            The information provided on this website does not, and is not
+            intended to, constitute legal advice, instead, all information,
+            content, and materials available on this site are for general
+            information purposes only. Information on this website may not
+            constitute the most up-to-date legal or other information. This
+            website contains links to other third-party websites. Such links are
+            only for the convenience of the reader, user or browser. Regulbe
+            does not recommend or endorse the contents of the third-party
+            websites.
+          </p>
+          <p>
+            Readers of this website shoule contact their attorney to obtain
+            advice with respect to any particular legal matter. No reader, user,
+            or browther of this site should act or refrain from acting on the
+            basis of information on this website without first seeking legal
+            advice from counsel in the relevant jurisdiction.Only your
+            individual attorney can provide assurances that the information
+            contained herein - and your interpretation of it - is applicable or
+            appropriate to your particular situation.
+          </p>
+        </div>
       </div>
     </section>
   );

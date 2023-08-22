@@ -74,18 +74,23 @@
   letter-spacing: 0.02em;
   text-align: right;
 }
-.customTable {
+.table {
+  margin-top: 50px;
   width: 100%;
   border-collapse: collapse;
   border: 1px solid #d8d8d8;
 }
 
-.customTable th,
-.customTable td {
+.table th,
+.table td {
   border: 1px solid #d8d8d8;
   padding: 8px;
   text-align: center;
 }
-
-.customTable th {
+.disclaimerTitle {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
 }

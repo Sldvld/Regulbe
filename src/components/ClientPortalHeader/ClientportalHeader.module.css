@@ -25,4 +25,8 @@
   display: block;
   text-decoration: none;
   color: var(--text-color-white);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0.02em;
 }
