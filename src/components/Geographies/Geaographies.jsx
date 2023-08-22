@@ -1,4 +1,4 @@
-import Map from '../../assets/map.svg';
+import map from '../../assets/map.jpg';
 import arr from '../../assets/sprite.svg';
 import { Accordion, AccordionItem as Item } from '@szhsin/react-accordion';
 import styles from './Geographies.module.css';
@@ -31,7 +31,6 @@ const Geographies = () => {
         <div className={styles.geographiesTextBlock}>
           <h2 className={styles.geographiesHeader}>GEOGRAPHIES</h2>
           <div className={styles.accordion}>
-            {/* `transitionTimeout` prop should be equal to the transition duration in CSS */}
             <Accordion allowMultiple transition transitionTimeout={250}>
               <AccordionItem header="Asia - Pacific (11)">
                 Australia <span className={styles.dotItem}>&#8226;</span> New
@@ -94,7 +93,12 @@ const Geographies = () => {
             </Accordion>
           </div>
         </div>
-        <img className={styles.geographiesMap} src={Map} alt="Map" />
+        <img
+          className={styles.geographiesMap}
+          loading="lazy"
+          src={map}
+          alt="Map"
+        />
       </div>
     </div>
   );

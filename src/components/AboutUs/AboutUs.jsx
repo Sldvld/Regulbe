@@ -11,6 +11,7 @@ const AboutUs = () => {
             className={css.aboutImage}
             src={workingProcessImage}
             alt="Working process"
+            loading="lazy"
           />
         </div>
         <div className={css.aboutTextBlock}>
