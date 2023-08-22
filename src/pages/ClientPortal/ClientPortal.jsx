@@ -1,8 +1,11 @@
-import css from './ClientPortal.module.css';
+import ClienPortalHeader from 'components/ClientPortalHeader/ClientPortal.header';
+import ClientPortalMain from 'components/ClientPortalMain/ClientPortalMain';
+// import css from './ClientPortal.module.css';
 const ClientPortal = () => {
   return (
     <>
-      <h1 className={css.primary}>ClientPortal</h1>
+      <ClienPortalHeader />
+      <ClientPortalMain />
     </>
   );
 };

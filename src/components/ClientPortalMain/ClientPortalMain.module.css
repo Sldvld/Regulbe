@@ -1,0 +1,91 @@
+.mainSection {
+  padding: 50px 0px;
+}
+.backButton {
+  border: none;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 31px;
+  letter-spacing: 0.02em;
+  background-image: var(--gradient-text);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.arrowSvg {
+  rotate: 180deg;
+  margin-right: 10px;
+  stroke: #4f86e3;
+  margin-left: 14px;
+  transition: stroke 0.3s linear, fill 0.3s linear;
+}
+.mainHeader {
+  display: block;
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.updateTitle {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 31px;
+  letter-spacing: 0.02em;
+
+  color: var(--primary-color);
+}
+.updateData {
+  display: block;
+  margin-top: 25px;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 31px;
+  letter-spacing: 0.02em;
+  text-align: right;
+  color: var(--primary-color);
+}
+.descriptionBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 20px;
+  margin-top: 15px;
+  background-color: var(--background-color-grey);
+  height: 205px;
+}
+.shortDescription {
+  display: block;
+  margin: 20px 0 0 20px;
+  color: var(--primary-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+}
+.showHide {
+  display: block;
+  margin: 0 20px 20px 0;
+  color: var(--primary-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  text-align: right;
+}
+.customTable {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #d8d8d8;
+}
+
+.customTable th,
+.customTable td {
+  border: 1px solid #d8d8d8;
+  padding: 8px;
+  text-align: center;
+}
+
+.customTable th {
+}

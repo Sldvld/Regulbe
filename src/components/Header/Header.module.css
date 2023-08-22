@@ -12,11 +12,6 @@
   transform: translateX(-50%);
 }
 
-.containerHeader {
-  display: flex;
-  align-items: center;
-}
-
 .headerLogo {
   display: block;
   text-decoration: none;
