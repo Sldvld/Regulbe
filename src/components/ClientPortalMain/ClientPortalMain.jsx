@@ -3,6 +3,18 @@
 import css from './ClientPortalMain.module.css';
 
 const ClientPortalMain = () => {
+  const countries = [
+    'Australia',
+    'New Zealand',
+    'Hong Kong',
+    'India',
+    'Indonesia',
+    'Japan',
+    'Malaysia',
+    'Philippines',
+    'South Korea',
+    'Singapore',
+  ];
   return (
     <section>
       <div className={css.mainSection}>
@@ -20,38 +32,41 @@ const ClientPortalMain = () => {
           <p className={css.shortDescription}>Short description</p>
           <p className={css.showHide}>Show/Hide</p>
         </div>
-        <table className={css.table}>
-          <thead>
-            <tr>
-              <th>Country</th>
-              <th>Info 1</th>
-              <th>Info 2</th>
-              <th>Info 3</th>
-              <th>Info 4</th>
-              <th>Info 5</th>
-              <th>Info 6</th>
-              <th>Info 7</th>
-              <th>Info 8</th>
-              <th>Info 9</th>
-            </tr>
-          </thead>
-          <tbody>
-            {Array.from({ length: 11 }).map((_, country) => (
-              <tr key={country}>
-                <td>Counry {country + 1}</td>
-                <td>Value 1</td>
-                <td>Value 2</td>
-                <td>Value 3</td>
-                <td>Value 4</td>
-                <td>Value 5</td>
-                <td>Value 6</td>
-                <td>Value 7</td>
-                <td>Value 8</td>
-                <td>Value 9</td>
+        <div className={css.tableContainer}>
+          <div className={css.tableWrapper}></div>
+          <table className={css.table}>
+            <thead>
+              <tr>
+                <th>Country</th>
+                <th>Info 1</th>
+                <th>Info 2</th>
+                <th>Info 3</th>
+                <th>Info 4</th>
+                <th>Info 5</th>
+                <th>Info 6</th>
+                <th>Info 7</th>
+                <th>Info 8</th>
+                <th>Info 9</th>
               </tr>
-            ))}
-          </tbody>
-        </table>
+            </thead>
+            <tbody>
+              {countries.map((country, index) => (
+                <tr key={index}>
+                  <td>{country}</td>
+                  <td>Value 1</td>
+                  <td>Value 2</td>
+                  <td>Value 3</td>
+                  <td>Value 4</td>
+                  <td>Value 5</td>
+                  <td>Value 6</td>
+                  <td>Value 7</td>
+                  <td>Value 8</td>
+                  <td>Value 9</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
         <div className={css.disclaimerBlock}>
           <h2 className={css.disclaimerTitle}>DISCLAIMER:</h2>
           <p className={css.disclaimerText}>
