@@ -1,4 +1,4 @@
-import map from '../../assets/map.jpg';
+import map from '../../assets/map.svg';
 import arr from '../../assets/sprite.svg';
 import { Accordion, AccordionItem as Item } from '@szhsin/react-accordion';
 import styles from './Geographies.module.css';
@@ -73,7 +73,8 @@ const Geographies = () => {
                 <span className={styles.dotItem}>&#8226;</span> Sweden
                 <span className={styles.dotItem}>&#8226;</span> Switzerland
                 <span className={styles.dotItem}>&#8226;</span> Turkey
-                <span className={styles.dotItem}>&#8226;</span> United Kingdom
+                <span className={styles.dotItem}>&#8226;</span> <br /> United
+                Kingdom
               </AccordionItem>
 
               <AccordionItem header="Latin America (7)">

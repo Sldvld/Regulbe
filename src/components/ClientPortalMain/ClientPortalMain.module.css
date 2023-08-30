@@ -97,7 +97,12 @@
 }
 
 .table th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: var(--text-color-white);
   width: 290px;
+  height: 66px;
   border: 1px solid #d8d8d8;
   color: #4f86e3;
   padding: 20px;
@@ -120,7 +125,6 @@
   letter-spacing: 0.02em;
   text-align: left;
 }
-
 .disclaimerBlock {
   display: block;
   margin-top: 50px;
