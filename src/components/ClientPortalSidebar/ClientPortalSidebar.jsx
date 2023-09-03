@@ -9,12 +9,11 @@ const ClientPortalSidebar = () => {
   };
 
   return (
-    <div className={`${css.sideBar} ${sideBarOpen ? css.sideBarOpen : ''}`}>
-      <div className={css.sideBar}></div>
+    <aside className={`${css.sideBar} ${sideBarOpen ? css.sideBarOpen : ''}`}>
       <button className={css.toggleButton} onClick={toggleSideBar}>
-        Toggle SideBar
+        Bar
       </button>
-    </div>
+    </aside>
   );
 };
 
