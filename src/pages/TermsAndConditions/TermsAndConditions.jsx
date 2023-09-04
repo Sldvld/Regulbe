@@ -31,101 +31,137 @@ const TermsAndConditions = () => {
           </div>
 
           <p className={css.termsText}>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Consequatur expedita iure officiis repellat error eveniet deleniti
-            dolorum pariatur nisi blanditiis exercitationem sapiente, itaque ad
-            optio quibusdam quis sequi voluptas magnam architecto nesciunt amet?
-            Consequatur non nihil recusandae odit reprehenderit, ad amet
-            voluptate tempore. Officiis ducimus repellendus nihil. Accusamus
-            quas recusandae distinctio aliquid nihil tenetur eligendi ipsam
-            alias quaerat! Ipsum a minus incidunt animi dolor alias consequuntur
-            rem quia illo voluptatum commodi officiis placeat numquam, nam,
-            totam debitis exercitationem doloremque labore architecto aliquid
-            praesentium. Quas est perferendis dignissimos quibusdam! Dicta
-            voluptas fuga, cumque qui amet asperiores iste enim! Dicta quibusdam
-            eius debitis magnam quis necessitatibus cum non rerum sed explicabo?
-            Et quam, voluptatem voluptates eos vel eum quibusdam illo asperiores
-            ullam qui voluptas vitae placeat eaque molestiae in ea error?
-            Pariatur alias reprehenderit aperiam. Quia, nostrum adipisci dolor
-            consequatur at nulla quaerat eligendi asperiores in blanditiis nisi
-            earum soluta harum, sint itaque. Quo sint expedita, quasi unde iusto
-            amet non aliquam autem aliquid vitae! Quidem assumenda laboriosam
-            officia ut, recusandae molestias nobis autem incidunt ab est omnis
-            maxime minus, pariatur cum! Odit praesentium minima at, tempora
-            quaerat obcaecati amet, ipsum qui maxime dignissimos ex sint itaque
-            vel inventore aspernatur earum accusantium soluta tenetur? Aliquam
-            nostrum nulla, aut ut labore tenetur quam, debitis, totam quo
-            temporibus veniam recusandae rerum. Tenetur cum pariatur, impedit,
-            eaque mollitia nesciunt iusto molestias voluptates, distinctio nihil
-            perspiciatis magni debitis quam similique? Quisquam qui, deserunt
-            iure vero doloremque sit unde, rerum illum dignissimos
-            necessitatibus asperiores numquam fugiat pariatur quos ex recusandae
-            sed deleniti tempora eius autem corrupti iusto, architecto laborum
-            rem. Accusamus corporis impedit fugit itaque, aliquid voluptatem
-            libero ratione? Totam eius molestias, quo vero sint accusantium
-            deserunt, placeat ad perferendis blanditiis qui consequatur aperiam
-            quas odit reprehenderit excepturi? Magni error enim excepturi
-            eligendi non, laborum illum corporis eum nam laboriosam cumque iure
-            quaerat ipsum labore deleniti recusandae? Neque labore, impedit
-            suscipit architecto mollitia, aliquam, blanditiis sunt voluptatem
-            eius magni a quae dignissimos adipisci accusamus voluptatibus
-            eveniet minus quos fugit. Excepturi, doloremque vitae, vero beatae
-            fugit reiciendis porro provident temporibus odio vel in magni! Sequi
-            cumque adipisci, incidunt, veritatis fugiat corrupti in ab ipsum
-            voluptatem, at amet. Alias dolore doloribus reiciendis nobis! Vel
-            dignissimos sit inventore perferendis, accusantium, ipsa earum
-            eveniet cupiditate doloribus, nam neque amet veritatis. Mollitia,
-            expedita autem! Aliquam magnam quo aperiam enim sunt ipsa quasi,
-            iure saepe corrupti architecto? Possimus voluptate rem perferendis
-            ipsam quo. Deserunt eum incidunt iusto ipsa a ullam, recusandae
-            tempore id repellat, ex explicabo voluptas quas aspernatur natus
-            molestias. Laudantium, sed nisi magnam quibusdam ipsa modi itaque
-            aliquid eligendi obcaecati tenetur corporis voluptatibus iure a
-            dignissimos architecto voluptas vitae! Nisi dolorum repudiandae
-            labore sapiente eos quo atque ea unde. Dolores expedita ipsum
-            mollitia aliquam quasi molestias laudantium commodi delectus omnis
-            itaque tenetur magnam beatae quisquam est aut earum, vero hic, ex
-            cupiditate nostrum alias quod dicta id numquam. Odio inventore
-            tenetur, maxime impedit velit nobis quibusdam corporis temporibus,
-            enim quo quisquam numquam id fugit debitis eaque qui. Itaque ut
-            officia odit!
+            Thank you for visiting our website. Use of this website is subject
+            to the user's compliance with these Terms and Conditions. As such,
+            please carefully review the following information and do not use our
+            website if you are not willing to abide by these Terms and
+            Conditions.
+          </p>
+          <h2 className={css.secondaryHeaders}>General Use</h2>
+          <p className={css.termsText}>
+            Using our website does not create a contract between you and
+            Regulbe.
           </p>
           <p className={css.termsText}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque rem,
-            illo ullam eius assumenda aspernatur doloremque iure, nam facilis
-            maiores voluptatibus tempora non tenetur fugiat? Architecto nisi ex
-            inventore quo ut impedit, necessitatibus in reiciendis ipsum dicta
-            eaque numquam cumque quae tenetur quibusdam eveniet voluptas cum
-            accusamus nesciunt, vel ipsa soluta blanditiis? Modi, sequi.
-            Reiciendis ducimus aliquam delectus eaque rem. Recusandae,
-            necessitatibus nobis adipisci repudiandae illo a voluptatibus nemo
-            magnam alias omnis numquam ratione nihil corporis voluptatem vero
-            est expedita, reiciendis similique. Magnam repellat iure quibusdam
-            et cumque deserunt? Id aliquam iusto omnis vel dolorem quisquam cum
-            minima molestiae sint, inventore modi doloremque consequatur
-            perspiciatis, eos eveniet tempore expedita! Amet voluptatibus earum
-            dolores optio tenetur dolor modi ipsum in molestiae. Repellat
-            suscipit nihil molestias rerum similique qui accusantium enim
-            sapiente, ad veritatis maiores voluptatibus illo fuga temporibus,
-            voluptates perferendis autem laborum eum, a id est! Corrupti
-            laborum, ducimus debitis vero neque totam eius ipsum quidem nam ipsa
-            nesciunt dolores repellendus possimus esse consequatur similique
-            quas corporis eos error incidunt nemo saepe quam distinctio! Rem,
-            porro! Nostrum perferendis adipisci suscipit minus animi fugit,
-            provident tempore facilis modi voluptate. Consectetur corporis, odio
-            quos minima, fugit reprehenderit ab explicabo maxime soluta iusto
-            accusantium placeat nemo. Doloremque odio fugiat ipsum consequuntur
-            eligendi similique repellat vel magnam corrupti, inventore saepe
-            assumenda laboriosam nemo deleniti dolorem, excepturi, neque
-            consequatur. Odit architecto dicta sunt animi quasi rem minima qui
-            tempore quos? Architecto rem expedita, sunt quas excepturi quidem
-            corrupti iure minus quia voluptatum dolores libero aperiam itaque
-            animi sit tempora quae recusandae molestias, id vero dolorem.
-            Architecto consequuntur, recusandae deserunt delectus voluptate
-            velit dolor commodi aut natus rerum molestiae. Laudantium ex, illo
-            perferendis ad molestias voluptatum reiciendis modi quia eligendi
-            iusto ut mollitia dicta architecto quo itaque accusantium nostrum.
-            Est numquam atque expedita in non alias tempore?
+            The information provided on this website does not, and is not
+            intended to, constitute legal advice, instead, all information,
+            content (including databases), and materials (“Information”)
+            available on this site are for the general information purposes
+            only. It is subject to change without notice.
+          </p>
+          <p className={css.termsText}>
+            Regulbe collects and analyses publicly available information
+            applicable to the provision of telecommunications services across
+            countries. Regulbe leverages its industry expertise to compose
+            databases with information related to regulatory requirements
+            grouped by different jurisdictions and/or topics.
+          </p>
+          <p className={css.termsText}>
+            Regulbe exercises reasonable diligence to ensure that the
+            Information provided is both accurate and punctual. However,
+            Regulbe, as well as any third parties, do not offer any assurance or
+            warranty regarding the precision, timeliness, effectiveness,
+            entirety, or appropriateness of the Information presented or
+            provided on this website for any specific intent.
+          </p>
+          <p className={css.termsText}>
+            Readers, users, and/or browsers of this website should only regard
+            the Information available via the{' '}
+            <a className={css.termsAccent} href="/regulbe/clientportal">
+              Client Portal{' '}
+            </a>
+            as an exclusive, non-mandatory, and non-binding point of view of
+            Regulbe regarding the regulation of specific aspects of
+            telecommunications services within specific jurisdictions.
+          </p>
+          <p className={css.termsText}>
+            You recognize that such information and materials could include
+            inaccuracies or mistakes, and we explicitly disclaim responsibility
+            for any such inaccuracies or errors to the maximum extent allowed by
+            law.
+          </p>
+          <p className={css.termsText}>
+            Readers, users and/or browsers of this website must contact a
+            qualified attorney, lawyer, and/or counsel (“Qualified Counsel”) in
+            a specific jurisdiction to obtain advice with respect to any
+            particular legal, regulatory or factual matter. No reader, user, or
+            browser of this website should act or refrain from acting on the
+            basis of the Information on this website without first seeking legal
+            advice from the Qualified Counsel in the relevant jurisdiction. Only
+            the Qualified Counsel can provide assurances that the Information on
+            this website - and your interpretation of it - is applicable and/or
+            appropriate to your particular situation.
+          </p>
+          <p className={css.termsText}>
+            The utilization of any Information from this website is entirely
+            your responsibility and at your own risk. We are not accountable for
+            it. Ensuring that any products, services, or information accessed
+            through this website fulfill your particular requirements remains
+            solely under your own responsibility.
+          </p>
+          <h2 className={css.secondaryHeaders}>Links to Other Websites</h2>
+          <p className={css.termsText}>
+            This website contains links to other third-party websites. Such
+            links are only provided for convenience of the reader, user or
+            browser. Regulbe does not recommend or endorse any third-party
+            websites or services. We have no control over, and assume no
+            responsibility for, the content, privacy policies, or practices of
+            any third-party websites or services. As such, we are not
+            responsible or liable for any damage or loss you may incur as a
+            result of using any third-party websites or services.
+          </p>
+          <h2 className={css.secondaryHeaders}>Confidentiality</h2>
+          <p className={css.termsText}>
+            The content of our website, including the Regulbe logo and the
+            Information, is the property of Regulbe. Unless we give you express
+            written permission, readers, users and/or browsers of this website
+            may not copy, reproduce, distribute, transmit, publish, display,
+            license, transfer, sell, or otherwise exploit information or images
+            from the website.
+          </p>
+          <p className={css.termsText}>
+            Readers, users and/or browsers of this website also agree not to use
+            the website for any unlawful purposes or in any manner that disrupts
+            the use of the website by other users.
+          </p>
+          <h2 className={css.secondaryHeaders}>Privacy</h2>
+          <p className={css.termsText}>
+            When you access the website, we may collect certain information from
+            or about you. For details about the type of information we may
+            collect, and the measures we use to protect your privacy, please
+            visit our Privacy Policy.
+          </p>
+          <h2 className={css.secondaryHeaders}>Disclaimer</h2>
+          <p className={css.termsText}>
+            UNLESS OTHERWISE EXPLICITLY STATED IN THESE TERMS AND CONDITIONS OR
+            ANY WRITTEN AGREEMENT REGULBE FORM WITH YOU, OUR WEBSITE IS
+            PRESENTED "AS IS," AND WE DO NOT PROVIDE ANY FORM OF WARRANTIES,
+            WHETHER EXPRESS, IMPLIED, OR STATUTORY, INCLUDING ANY WARRANTIES OF
+            MERCHANTABILITY, SUITABILITY FOR A PARTICULAR PURPOSE, AND
+            NON-INFRINGEMENT. FURTHERMORE, ANY MENTION OF THIRD-PARTY
+            INFORMATION, PRODUCTS, OR SERVICES ON THIS WEBSITE OR LINKED
+            WEBSITES DOES NOT REPRESENT A CLEAR OR IMPLIED WARRANTY FROM REGULBE
+            REGARDING SUCH INFORMATION, PRODUCTS, OR SERVICES. IF YOU DISAGREE
+            WITH THESE TERMS AND CONDITIONS, YOUR ONLY RECOURSE IS TO CEASE
+            USING OUR WEBSITE.
+          </p>
+          <h2 className={css.secondaryHeaders}>
+            Governing Law and Jurisdiction
+          </h2>
+          <p className={css.termsText}>
+            These Terms and Conditions are subject to the laws of Belgium and
+            should be interpreted in accordance with them, disregarding any
+            conflicts of law principles. In case of a dispute, it shall be
+            subject to the exclusive jurisdiction of Brussels.
+          </p>
+          <h2 className={css.secondaryHeaders}>Questions</h2>
+          <p className={css.termsText}>
+            If you have any questions about these Terms and Conditions, please
+            contact us at{' '}
+            <a href="mailto: info@regulbe.com" className={css.termsAccent}>
+              {' '}
+              info@regulbe.com
+            </a>
           </p>
         </div>
       </div>

@@ -1,0 +1,10 @@
+/* ClientPortal.module.css */
+.clientPortal {
+  display: block;
+}
+
+.content {
+  flex-grow: 1;
+  transition: margin-left 0.3s ease-in-out; /* Анімація для зміни розміру контенту */
+  /* Додайте інші стилі для контенту за вашими потребами */
+}
