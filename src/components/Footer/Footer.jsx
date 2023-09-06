@@ -20,10 +20,14 @@ const Footer = () => {
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink className={css.navLink}>Privacy Policy</NavLink>
+                  <NavLink className={css.navLink} to="/privacypolicy">
+                    Privacy Policy
+                  </NavLink>
                 </li>
                 <li>
-                  <NavLink className={css.navLink}>Careers</NavLink>
+                  <NavLink className={css.navLink} to="/careers">
+                    Careers
+                  </NavLink>
                 </li>
               </ul>
             </nav>

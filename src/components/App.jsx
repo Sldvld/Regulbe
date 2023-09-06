@@ -8,6 +8,8 @@ const ContactUs = lazy(() => import('pages/ContactUs/ContactUs'));
 const TermsAndConditions = lazy(() =>
   import('pages/TermsAndConditions/TermsAndConditions')
 );
+const PrivacyPolicy = lazy(() => import('pages/PrivacyPolicy/PrivacyPolicy'));
+const Careers = lazy(() => import('pages/Careers/Careers'));
 
 export const App = () => {
   return (
@@ -17,6 +19,8 @@ export const App = () => {
         <Route path="/clientportal" element={<ClientPortal />} />
         <Route path="/contactus" element={<ContactUs />} />
         <Route path="/termsandconditions" element={<TermsAndConditions />} />
+        <Route path="/privacypolicy" element={<PrivacyPolicy />} />
+        <Route path="/careers" element={<Careers />} />
       </Route>
       <Route path="*" element={<Navigate to="/" />} />
     </Routes>
