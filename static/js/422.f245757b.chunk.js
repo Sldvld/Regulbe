@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkregulbe=self.webpackChunkregulbe||[]).push([[422],{422:function(e,u,n){n.r(u);var r=n(184);u.default=function(){return(0,r.jsx)("h1",{children:"PP"})}}}]);
-//# sourceMappingURL=422.f245757b.chunk.js.map
