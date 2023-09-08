@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkregulbe=self.webpackChunkregulbe||[]).push([[247],{247:function(e,r,u){u.r(r);var n=u(184);r.default=function(){return(0,n.jsx)("h1",{children:"Careers"})}}}]);
-//# sourceMappingURL=247.9c48ced7.chunk.js.map

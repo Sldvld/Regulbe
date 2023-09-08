@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/247.9c48ced7.chunk.js","mappings":"0HAIA,UAJgB,WACd,OAAO,wBAAI,WACZ,C","sources":["pages/Careers/Careers.jsx"],"sourcesContent":["const Careers = () => {\n  return <h1>Careers</h1>;\n};\n\nexport default Careers;\n"],"names":[],"sourceRoot":""}
