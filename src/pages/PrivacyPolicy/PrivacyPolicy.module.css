@@ -1,0 +1,108 @@
+.termsSection {
+  padding: 0px 0px 150px 0px;
+}
+.termsWrapper {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1500px;
+  padding: 210px 15px 0px 15px;
+}
+.termsNavigate {
+  display: flex;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.termsHomeLink {
+  display: block;
+  text-decoration: none;
+  color: var(--text-color-black);
+}
+.termsTitle {
+  display: block;
+  color: var(--primary-color);
+}
+.termsHeader {
+  margin-top: 75px;
+  background: var(--gradient-text);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+}
+.secondaryHeaders {
+  display: block;
+  margin-top: 30px;
+  background: var(--gradient-text);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+}
+.updaterBlock {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.policyNumbering {
+  list-style-type: decimal;
+}
+.updaterText {
+  color: var(--primary-color);
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 31px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.termsTextList {
+  list-style-type: decimal;
+  margin-top: 25px;
+  color: var(--text-color-black);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  text-align: justify;
+}
+.updaterData {
+  color: var(--primary-color);
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 31px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.termsText {
+  display: block;
+  margin-top: 25px;
+  color: var(--text-color-black);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  text-align: justify;
+}
+.termsAccent {
+  background: var(--gradient-text);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+}
+.dotSvg {
+  margin: 0px 15px;
+}
