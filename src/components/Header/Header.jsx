@@ -5,7 +5,10 @@ import css from './Header.module.css';
 
 const Header = () => {
   const location = useLocation();
-  const shouldShowNavigation = location.pathname !== '/termsandconditions';
+  const shouldShowNavigation =
+    location.pathname !== '/termsandconditions' &&
+    location.pathname !== '/privacypolicy' &&
+    location.pathname !== '/careers';
 
   return (
     <>

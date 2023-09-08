@@ -39,66 +39,58 @@ const PrivacyPolicy = () => {
             Regulation (GDPR) in the European Union.
           </p>
           <h2 className={css.secondaryHeaders}>Information We Collect:</h2>
-          <ul className={css.policyNumbering}>
-            <li className={css.termsTextList}>
-              <span className={css.termsAccent}>Cookies: </span>
-              We use cookies to analyze how visitors use our website, to improve
-              user experience, and to optimize our services. These cookies may
-              collect non-personal information such as browser type, device
-              information, and pages viewed. You can manage cookie preferences
-              through your browser settings.
-            </li>
-            <li className={css.termsTextList}>
-              <span className={css.termsAccent}>Recruitment Data: </span>
-              When you apply for a position with us, we may collect personal
-              data such as your name, contact details, resume, and other
-              information relevant to the recruitment process. This data will
-              only be collected during the opening of specific positions, and
-              erased when is no longer required (e.g., the opening has been
-              closed).
-            </li>
-            <li className={css.termsTextList}>
-              <span className={css.termsAccent}>User Information: </span>
-              We may collect your full name, corporate email address, location,
-              and the name of your company when you use our website or services
-              to provide you with relevant content and improve our offerings.
-            </li>
-          </ul>
+          <p className={css.termsText}>
+            <span className={css.termsAccent}>Cookies: </span>
+            We use cookies to analyze how visitors use our website, to improve
+            user experience, and to optimize our services. These cookies may
+            collect non-personal information such as browser type, device
+            information, and pages viewed. You can manage cookie preferences
+            through your browser settings.
+          </p>
+          <p className={css.termsText}>
+            <span className={css.termsAccent}>Recruitment Data: </span>
+            When you apply for a position with us, we may collect personal data
+            such as your name, contact details, resume, and other information
+            relevant to the recruitment process. This data will only be
+            collected during the opening of specific positions, and erased when
+            is no longer required (e.g., the opening has been closed).
+          </p>
+          <p className={css.termsText}>
+            <span className={css.termsAccent}>User Information: </span>
+            We may collect your full name, corporate email address, location,
+            and the name of your company when you use our website or services to
+            provide you with relevant content and improve our offerings.
+          </p>
           <h2 className={css.secondaryHeaders}>How We Use Your Information:</h2>
-          <ul className={css.policyNumbering}>
-            <li className={css.termsTextList}>
-              We use cookies to analyze and enhance user experience on our
-              website.
-            </li>
-            <li className={css.termsTextList}>
-              Recruitment data is collected to assess your qualifications for
-              open positions and communicate with you during the recruitment
-              process.
-            </li>
-            <li className={css.termsTextList}>
-              User information is collected to provide access to the{' '}
-              <a className={css.termsAccent} href="/regulbe/clientportal">
-                Client Portal{' '}
-              </a>
-              , personalize content, improve our services, and communicate
-              relevant updates.
-            </li>
-          </ul>
+          <p className={css.termsText}>
+            We use cookies to analyze and enhance user experience on our
+            website.
+          </p>
+          <p className={css.termsText}>
+            Recruitment data is collected to assess your qualifications for open
+            positions and communicate with you during the recruitment process.
+          </p>
+          <p className={css.termsText}>
+            User information is collected to provide access to the{' '}
+            <a className={css.termsAccent} href="/regulbe/clientportal">
+              Client Portal{' '}
+            </a>
+            , personalize content, improve our services, and communicate
+            relevant updates.
+          </p>
           <h2 className={css.secondaryHeaders}>Disclosure of Information:</h2>
-          <ul className={css.policyNumbering}>
-            <li className={css.termsTextList}>
-              We may share recruitment data with relevant personnel involved in
-              the recruitment process.
-            </li>
-            <li className={css.termsTextList}>
-              We do not sell, trade, or rent your personal information to third
-              parties.
-            </li>
-            <li className={css.termsTextList}>
-              We may disclose information when required by law or to protect our
-              rights, safety, and property.
-            </li>
-          </ul>
+          <p className={css.termsText}>
+            We may share recruitment data with relevant personnel involved in
+            the recruitment process.
+          </p>
+          <p className={css.termsText}>
+            We do not sell, trade, or rent your personal information to third
+            parties.
+          </p>
+          <p className={css.termsText}>
+            We may disclose information when required by law or to protect our
+            rights, safety, and property.
+          </p>
           <h2 className={css.secondaryHeaders}>Data Security:</h2>
           <p className={css.termsText}>
             We implement appropriate technical and organizational measures to
@@ -106,16 +98,13 @@ const PrivacyPolicy = () => {
             alteration, or destruction.
           </p>
           <h2 className={css.secondaryHeaders}>Your Rights:</h2>
-          <ul className={css.policyNumbering}>
-            <li className={css.termsTextList}>
-              You have the right to access, correct, or delete your personal
-              data.
-            </li>
-            <li className={css.termsTextList}>
-              You can withdraw your consent to data processing at any time,
-              where applicable.
-            </li>
-          </ul>
+          <p className={css.termsText}>
+            You have the right to access, correct, or delete your personal data.
+          </p>
+          <p className={css.termsText}>
+            You can withdraw your consent to data processing at any time, where
+            applicable.
+          </p>
           <h2 className={css.secondaryHeaders}>Contact Us:</h2>
           <p className={css.termsText}>
             For questions, requests, or concerns regarding your privacy and data
