@@ -7,6 +7,7 @@ import Questions from 'components/Questions/Questions';
 import Pricing from 'components/Pricing/Pricing';
 import Geographies from 'components/Geographies/Geaographies';
 import Header from 'components/Header/Header';
+import Footer from 'components/Footer/Footer';
 
 const Home = () => {
   useEffect(() => {
@@ -22,6 +23,7 @@ const Home = () => {
       <Questions />
       <Geographies />
       <Pricing />
+      <Footer />
     </>
   );
 };

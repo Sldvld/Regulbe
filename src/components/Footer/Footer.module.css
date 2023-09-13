@@ -1,4 +1,9 @@
-.footerSection {
+.footer {
+  padding: 60px 15px;
+  background: var(--gradient-text);
+}
+.footerShifted {
+  margin-left: 500px;
   padding: 60px 15px;
   background: var(--gradient-text);
 }

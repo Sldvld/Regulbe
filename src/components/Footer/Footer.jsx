@@ -3,9 +3,10 @@ import logo from '../../assets/white-logo-regulbe.svg';
 import css from './Footer.module.css';
 import sprite from '../../assets/sprite.svg';
 
-const Footer = () => {
+const Footer = ({ sideBarOpen }) => {
+  const footerClass = sideBarOpen ? css.footerShifted : css.footer;
   return (
-    <footer className={css.footerSection}>
+    <footer className={footerClass}>
       <div>
         <div className={css.footerWraper}>
           <NavLink className={css.footerLabel} to="/">

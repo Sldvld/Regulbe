@@ -1,4 +1,5 @@
 import Header from 'components/Header/Header';
+import Footer from 'components/Footer/Footer';
 import React, { useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import sprite from '../../assets/sprite.svg';
@@ -165,6 +166,7 @@ const TermsAndConditions = () => {
           </p>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

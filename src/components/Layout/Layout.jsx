@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom';
 import { Suspense } from 'react';
-import Footer from 'components/Footer/Footer';
+// import Footer from 'components/Footer/Footer';
 
 const Layout = () => {
   return (
@@ -10,7 +10,7 @@ const Layout = () => {
           <Outlet />
         </Suspense>
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
