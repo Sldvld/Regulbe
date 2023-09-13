@@ -51,7 +51,7 @@ const Careers = () => {
           <p className={css.termsText}>
             At Regulbe, we believe that success is built upon the foundation of
             exceptional talent. We are committed to nurturing a culture of
-            continuous growth and innovation, and we're always on the lookout
+            continuous growth and innovation, and we are always on the lookout
             for exceptional individuals to join our team.
           </p>
           <h2 className={css.secondaryHeaders}>Why Regulbe?</h2>
