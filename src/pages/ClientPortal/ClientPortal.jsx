@@ -1,8 +1,36 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import { Accordion, AccordionItem as Item } from '@szhsin/react-accordion';
 import css from './ClientPortal.module.css';
 import sprite from '../../assets/sprite.svg';
 import logo from '../../assets/logo-regulbe.svg';
+import arr from '../../assets/sprite.svg';
+
+const AccordionItem = ({ header, icon, ...rest }) => (
+  <Item
+    {...rest}
+    header={
+      <>
+        {icon && (
+          <svg className={css.iconAccordion} width="24" height="24">
+            <use href={icon} />
+          </svg>
+        )}
+        {header}
+        <svg width="24" height="24" className={css.arrowSvg}>
+          <use href={arr + '#icon-arr-down'} />
+        </svg>
+      </>
+    }
+    className={css.item}
+    buttonProps={{
+      className: ({ isEnter }) =>
+        `${css.itemBtn} ${isEnter && css.itemBtnExpanded}`,
+    }}
+    contentProps={{ className: css.itemContent }}
+    panelProps={{ className: css.itemPanel }}
+  />
+);
 
 const ClientPortal = () => {
   const [sideBarOpen, setSideBarOpen] = useState(false);
@@ -45,16 +73,34 @@ const ClientPortal = () => {
             <use href={sprite + '#icon-double-arrow'} />
           </svg>
         </button>
-        <div className={css.buttonBlock}>
-          <svg className={css.iconInBlock} width="24" height="24">
-            <use href={sprite + '#loop'} />
-          </svg>
-          <svg className={css.iconInBlock} width="24" height="24">
-            <use href={sprite + '#icon-file'} />
-          </svg>
-          <svg className={css.iconInBlock} width="24" height="24">
-            <use href={sprite + '#icon-location'} />
-          </svg>
+        <div className={css.accordion}>
+          <Accordion transition transitionTimeout={250}>
+            <AccordionItem header="TOPICS" icon={sprite + '#icon-file'}>
+              ALL TOPICS <br /> Market access <br /> Licensing
+              <br /> Regulatory Reporting
+              <br /> Billing requirements
+              <br /> Licensing Fees
+              <br /> Numbering: allocation
+              <br /> Numbering: sub-allocation
+              <br /> Numbering: reporting obligations
+              <br /> Numbering: territoriality restrictions
+              <br /> Numbering: fees
+              <br /> Lawful Interception
+              <br /> Lawful Enforcement: customer data disclosure
+            </AccordionItem>
+
+            <AccordionItem header="COUNTRIES" icon={sprite + '#icon-location'}>
+              Australia <br />
+              New Zealand <br /> Hong Kong
+              <br /> India
+              <br /> Indonesia
+              <br /> Japan
+              <br /> Malaysia
+              <br /> Philippines
+              <br /> South Korea
+              <br /> Singapore
+            </AccordionItem>
+          </Accordion>
         </div>
         <svg className={css.iconOutblock} width="24" height="24">
           <use href={sprite + '#icon-?'} />
@@ -72,12 +118,6 @@ const ClientPortal = () => {
         </header>
         <section>
           <div className={css.mainSection}>
-            {/* <NavLink className={css.backButton}>
-          <svg className={css.arrowSvg} width="16" height="12">
-            <use href={sprite + '#icon-arrow'} />
-          </svg>
-          Back to search
-        </NavLink> */}
             <h1 className={css.mainHeader}>NOMANDIC NUMBERS</h1>
             <p className={css.updateData}>
               <span className={css.updateTitle}>Last update: </span>August 10,
