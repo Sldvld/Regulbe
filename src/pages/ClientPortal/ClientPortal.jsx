@@ -115,6 +115,7 @@ const ClientPortal = () => {
             <svg className={css.iconOutblock} width="24" height="24">
               <use href={sprite + '#icon-?'} />
             </svg>
+            <p className={css.support}>Support</p>
           </a>
         </aside>
 
