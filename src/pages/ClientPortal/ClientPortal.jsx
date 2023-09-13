@@ -66,7 +66,9 @@ const ClientPortal = () => {
         </NavLink>
         <button className={css.toggleButton} onClick={toggleSideBar}>
           <svg
-            className={`${css.arrowSvg} ${isClicked ? css.clickedIcon : ''}`}
+            className={`${css.doubleArrowSvg} ${
+              isClicked ? css.clickedIcon : ''
+            }`}
             width="32"
             height="32"
           >

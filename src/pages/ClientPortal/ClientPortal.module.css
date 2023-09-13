@@ -193,9 +193,10 @@
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
 }
-.arrowSvg {
-  stroke: #4f86e3;
+.doubleArrowSvg {
+  display: block;
   margin-left: 14px;
+  stroke: #4f86e3;
   transition: stroke 0.3s linear, fill 0.3s linear;
 }
 .clickedIcon {
@@ -304,6 +305,7 @@
 
 .arrowSvg {
   margin-left: auto;
+  padding-right: 50px;
   transition: transform 0.25s cubic-bezier(0, 0, 0, 1);
 }
 
