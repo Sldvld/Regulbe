@@ -237,7 +237,7 @@
   transition: margin-left 0.3s ease-in-out;
 }
 .sideBarOpen .iconOutblock {
-  margin-left: 50px;
+  margin-left: 30px;
 }
 .toggleButton {
   position: absolute;
