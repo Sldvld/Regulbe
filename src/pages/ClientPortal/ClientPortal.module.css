@@ -195,7 +195,6 @@
   width: 60px;
   height: 100%;
   background-color: var(--background-color-grey);
-  transform: translateX(-40%);
   transition: width 0.3s ease-in-out;
   z-index: 2;
   border-radius: 0px 10px 10px 0px;
@@ -220,4 +219,6 @@
 .contentShifted {
   margin-left: 250px;
   transition: margin-left 0.3s ease-in-out;
+}
+.contentClass {
 }

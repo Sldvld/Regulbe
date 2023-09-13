@@ -9,7 +9,7 @@ const ClientPortal = () => {
     setSideBarOpen(!sideBarOpen);
   };
 
-  const contentClass = `${css.content} ${
+  const contentClass = `${css.contentClass} ${
     sideBarOpen ? css.contentShifted : ''
   }`;
 
