@@ -102,9 +102,11 @@ const ClientPortal = () => {
             </AccordionItem>
           </Accordion>
         </div>
-        <svg className={css.iconOutblock} width="24" height="24">
-          <use href={sprite + '#icon-?'} />
-        </svg>
+        <a href="mailto: info@regulbe.com">
+          <svg className={css.iconOutblock} width="24" height="24">
+            <use href={sprite + '#icon-?'} />
+          </svg>
+        </a>
       </aside>
 
       <div className={contentClass}>
