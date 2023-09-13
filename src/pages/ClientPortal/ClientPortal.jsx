@@ -1,12 +1,16 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import css from './ClientPortal.module.css';
+import sprite from '../../assets/sprite.svg';
+import logo from '../../assets/logo-regulbe.svg';
 
 const ClientPortal = () => {
   const [sideBarOpen, setSideBarOpen] = useState(false);
+  const [isClicked, setIsClicked] = useState(false);
 
   const toggleSideBar = () => {
     setSideBarOpen(!sideBarOpen);
+    setIsClicked(!isClicked);
   };
 
   const contentClass = `${css.contentClass} ${
@@ -29,9 +33,32 @@ const ClientPortal = () => {
   return (
     <div className={css.container}>
       <aside className={`${css.sideBar} ${sideBarOpen ? css.sideBarOpen : ''}`}>
+        <NavLink className={css.headerLogo} to="/">
+          <img src={logo} alt="Logo" className={css.logo} />
+        </NavLink>
         <button className={css.toggleButton} onClick={toggleSideBar}>
-          Bar
+          <svg
+            className={`${css.arrowSvg} ${isClicked ? css.clickedIcon : ''}`}
+            width="32"
+            height="32"
+          >
+            <use href={sprite + '#icon-double-arrow'} />
+          </svg>
         </button>
+        <div className={css.buttonBlock}>
+          <svg className={css.iconInBlock} width="24" height="24">
+            <use href={sprite + '#loop'} />
+          </svg>
+          <svg className={css.iconInBlock} width="24" height="24">
+            <use href={sprite + '#icon-file'} />
+          </svg>
+          <svg className={css.iconInBlock} width="24" height="24">
+            <use href={sprite + '#icon-location'} />
+          </svg>
+        </div>
+        <svg className={css.iconOutblock} width="24" height="24">
+          <use href={sprite + '#icon-?'} />
+        </svg>
       </aside>
 
       <div className={contentClass}>
