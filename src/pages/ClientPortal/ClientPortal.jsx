@@ -82,7 +82,7 @@ const ClientPortal = () => {
           <div className={css.accordion}>
             <Accordion transition transitionTimeout={250}>
               <AccordionItem header="TOPICS" icon={sprite + '#icon-file'}>
-                ALL TOPICS <br /> Market access <br /> Licensing
+                Market access <br /> Licensing
                 <br /> Regulatory Reporting
                 <br /> Billing requirements
                 <br /> Licensing Fees

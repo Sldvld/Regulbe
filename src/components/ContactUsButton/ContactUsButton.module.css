@@ -1,0 +1,37 @@
+.contactUsButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  height: 74px;
+  padding: 25px 55px 25px 55px;
+  border-radius: 50px;
+  font-family: 'Neue Haas Grotesk Display Pro';
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  border: none;
+  border-radius: 50px;
+  background: var(--gradient-text);
+  color: var(--text-color-white);
+  position: relative;
+  transition: background-color 0.3s linear;
+}
+
+.contactUsButton:hover,
+.contactUsButton:focus {
+  /* filter: hue-rotate(-12deg); */
+  background: linear-gradient(103.88deg, #3b78df 7.98%, #5859de 102.57%);
+}
+
+.arrowSvg {
+  stroke: var(--text-color-white);
+  color: var(--text-color-white);
+  fill: var(--text-color-white);
+  margin-left: 14px;
+}
