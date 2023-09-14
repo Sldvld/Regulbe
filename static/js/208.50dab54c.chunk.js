@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkregulbe=self.webpackChunkregulbe||[]).push([[208],{5039:function(c,e,b){b(2791);e.Z=b.p+"static/media/logo-regulbe.1bec67260f85b1416b3cfbc8fcd8d853.svg"},5561:function(c,e,b){b(2791);e.Z=b.p+"static/media/sprite.1867c24437f1b46c6247cadcdb262564.svg"}}]);
+//# sourceMappingURL=208.50dab54c.chunk.js.map
