@@ -54,9 +54,13 @@
 }
 
 .accordion {
-  max-width: 750px;
+  width: 200px;
 }
-
+@media screen and (min-width: 1440px) {
+  .accordion {
+    width: 750px;
+  }
+}
 .item {
   font-family: 'Neue Haas Grotesk Display Pro';
   font-size: 22px;
