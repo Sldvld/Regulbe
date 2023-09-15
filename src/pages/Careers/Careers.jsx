@@ -27,7 +27,6 @@ const Careers = () => {
 
   return (
     <>
-      <div className={css.mobilePreHeader}></div>
       <Header />
       <div className={css.termsSection}>
         <div className={css.termsWrapper}>
