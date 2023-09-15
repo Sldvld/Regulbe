@@ -1,12 +1,25 @@
 .termsSection {
-  padding: 0px 0px 150px 0px;
+  padding: 0px 0px 70px 0px;
+}
+@media screen and (min-width: 768px) {
+  .termsSection {
+    width: auto;
+    padding: 0px 0px 150px 0px;
+  }
 }
 .termsWrapper {
   display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 1500px;
-  padding: 210px 15px 0px 15px;
+  padding: 80px 15px 0px 15px;
+  margin-top: 15px;
+}
+@media screen and (min-width: 768px) {
+  .termsWrapper {
+    padding: 210px 15px 0px 15px;
+    margin-top: 30px;
+  }
 }
 .termsNavigate {
   display: flex;
@@ -26,7 +39,7 @@
   color: var(--primary-color);
 }
 .termsHeader {
-  margin-top: 75px;
+  margin-top: 35px;
   background: var(--gradient-text);
   -webkit-background-clip: text;
   background-clip: text;
@@ -35,6 +48,11 @@
   font-weight: 800;
   line-height: 36px;
   letter-spacing: 0.02em;
+}
+@media screen and (min-width: 768px) {
+  .termsHeader {
+    margin-top: 75px;
+  }
 }
 .secondaryHeaders {
   display: block;
@@ -62,6 +80,9 @@
   flex-direction: row;
   margin-top: 50px;
 }
+.policyNumbering {
+  list-style-type: decimal;
+}
 .updaterText {
   color: var(--primary-color);
   font-size: 22px;
@@ -69,6 +90,16 @@
   line-height: 31px;
   letter-spacing: 0.02em;
   text-align: left;
+}
+.termsTextList {
+  list-style-type: decimal;
+  margin-top: 25px;
+  color: var(--text-color-black);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  text-align: justify;
 }
 .updaterData {
   color: var(--primary-color);
