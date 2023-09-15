@@ -1,5 +1,10 @@
 .pcicingSection {
-  padding: 150px 0px;
+  padding: 70px 0px;
+}
+@media screen and (min-width: 1024px) {
+  .pcicingSection {
+    padding: 150px 0px;
+  }
 }
 .pricingWrapper {
   justify-content: space-between;
@@ -10,7 +15,15 @@
 }
 .pricingTextBlock {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
+}
+@media screen and (min-width: 1024px) {
+  .pricingTextBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 .pricingList {
   display: flex;

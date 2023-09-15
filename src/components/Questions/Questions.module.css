@@ -1,22 +1,42 @@
 .questionsSection {
   background: var(--gradient-text);
-  padding: 150px 0px;
+  padding: 70px 0px;
+}
+@media screen and (min-width: 1024px) {
+  .questionsSection {
+    padding: 150px 0px;
+  }
 }
 .questionsWrapper {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: space-between;
-  align-items: flex-end;
   margin-left: auto;
   margin-right: auto;
   max-width: 1500px;
   padding: 0px 15px;
 }
+@media screen and (min-width: 1024px) {
+  .questionsWrapper {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+}
 .questionsText {
+  text-align: center;
   color: var(--text-color-white);
-  font-size: 80px;
+  font-size: 35px;
   font-weight: 600;
-  line-height: 96px;
+  line-height: 42px;
   letter-spacing: 0em;
+}
+@media screen and (min-width: 1024px) {
+  .questionsText {
+    text-align: center;
+    font-size: 80px;
+    line-height: 96px;
+  }
 }
 .questionsTextBlock {
   display: flex;
@@ -28,19 +48,25 @@
   align-items: center;
   text-decoration: none;
   text-align: center;
+  margin-top: 30px;
   width: 239px;
   height: 47px;
   font-size: 20px;
   font-weight: 600;
   line-height: 24px;
   letter-spacing: 0em;
-  padding: 25px 55px;
+  padding: 25px 30px;
   border: 1px solid #ffffff;
   border-radius: 50px;
   background: var(--text-color-white);
   color: #4f86e3;
   position: relative;
   transition: background-color 0.3s linear, color 0.3s linear;
+}
+@media screen and (min-width: 1024px) {
+  .contactUsButton {
+    margin-top: 0;
+  }
 }
 .contactUsButton:hover,
 .contactUsButton:focus {

@@ -1,19 +1,54 @@
 .servicesSection {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 150px 0px;
+  max-width: 1500px;
+  padding: 70px;
   background-color: var(--background-color-grey);
 }
-
-.servicesBlock {
+@media screen and (min-width: 1024px) {
+  .servicesSection {
+    padding: 150px 0px;
+  }
+}
+.servicesWrapper {
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 70px 0px;
+}
+@media screen and (min-width: 1024px) {
+  .servicesWrapper {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 150px 0px;
+  }
+}
+.servicesTextBlock {
+  display: block;
+}
+@media screen and (min-width: 1024px) {
+  .servicesTextBlock {
+    min-width: 500px;
+  }
+}
+.servicesBlocks {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
-  width: 1500px;
+  align-items: center;
+  max-width: 1500px;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
+}
+@media screen and (min-width: 1024px) {
+  .servicesBlocks {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 150px 0px;
+  }
 }
 
 .servicesHeader {
@@ -26,31 +61,50 @@
 }
 
 .servicesText {
+  display: block;
   margin-bottom: 20px;
   font-size: 22px;
   font-weight: 500;
   line-height: 31px;
   letter-spacing: 0.02em;
   color: var(--text-color-black);
-  width: 543px;
+}
+@media screen and (min-width: 1024px) {
+  .servicesText {
+    width: 543px;
+  }
 }
 
 .servicesPrinciples {
   display: flex;
+  justify-content: center;
   flex-direction: row;
-  height: 283px;
-  width: 750px;
-  margin-left: auto;
+  max-height: 1000px;
+  width: 345px;
   border-radius: 20px;
   background: var(--gradient-text);
 }
+@media screen and (min-width: 1024px) {
+  .servicesPrinciples {
+    flex-direction: row;
+    margin-left: auto;
+    height: 283px;
+    width: 750px;
+  }
+}
 .servicesList {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   list-style: none;
   margin: 0;
-  padding: 100px 24px;
+  padding: 50px 0px;
   gap: 20px;
+}
+@media screen and (min-width: 1024px) {
+  .servicesList {
+    flex-direction: row;
+    padding: 0px 24px;
+  }
 }
 .servicesItem {
   display: flex;
@@ -59,8 +113,13 @@
   flex-wrap: wrap;
   background-color: var(--text-color-white);
   width: 221px;
-  height: 318px;
+  height: 280px;
   border-radius: 20px;
+}
+@media screen and (min-width: 1024px) {
+  .servicesItem {
+    height: 318px;
+  }
 }
 .servicesIconAround {
   margin-top: 50px;

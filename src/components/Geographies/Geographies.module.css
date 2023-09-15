@@ -1,15 +1,26 @@
 .geographiesSection {
-  padding: 150px 0px;
+  padding: 70px 0px;
   background: var(--background-color-grey);
+}
+@media screen and (min-width: 1024px) {
+  .geographiesSection {
+    padding: 150px 0px;
+  }
 }
 .geographiesWrapper {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
   margin-left: auto;
   margin-right: auto;
   max-width: 1500px;
   padding: 0px 15px;
+}
+@media screen and (min-width: 1024px) {
+  .geographiesWrapper {
+    flex-direction: row;
+  }
 }
 .geographiesHeader {
   margin-bottom: 70px;
@@ -32,12 +43,18 @@
   border-radius: 40px;
 }
 .geographiesMap {
+  display: block;
   margin-left: 50px;
-  max-width: 620px;
+  max-width: 200px;
+}
+@media screen and (min-width: 1440px) {
+  .geographiesMap {
+    max-width: 620px;
+  }
 }
 
 .accordion {
-  width: 750px;
+  max-width: 750px;
 }
 
 .item {

@@ -4,8 +4,8 @@ import sprite from '../../assets/sprite.svg';
 const Services = () => {
   return (
     <div className={css.servicesSection} id="services">
-      <div className={css.servicesBlock}>
-        <div>
+      <div className={css.servicesWrapper}>
+        <div className={css.servicesTextBlock}>
           <h2 className={css.servicesHeader}>SERVICES</h2>
           <p className={css.servicesText}>
             Provision of cloud-based communications services require strong

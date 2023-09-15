@@ -2,7 +2,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 150px 0px;
+  padding: 70px 0px;
+}
+@media screen and (min-width: 1024px) {
+  .expertiseSection {
+    padding: 150px 0px;
+  }
 }
 .expertiseTextBlock {
   display: flex;
@@ -21,6 +26,7 @@
 }
 .expertiseText {
   display: block;
+  text-align: center;
   padding: 10px 20px 10px 20px;
   border-radius: 200px;
   border: 1px;

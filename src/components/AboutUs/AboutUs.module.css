@@ -1,14 +1,25 @@
 .aboutSection {
   display: flex;
+  flex-direction: column-reverse;
   justify-content: space-between;
   align-items: center;
-  padding: 150px 0px;
+  padding: 70px 0px;
   background-color: var(--text-color-white);
+}
+@media screen and (min-width: 1024px) {
+  .aboutSection {
+    flex-direction: row;
+    padding: 150px 0px;
+  }
 }
 .aboutImage {
   display: block;
-  max-width: 625px;
-  max-height: 435px;
+  width: 320px;
+}
+@media screen and (min-width: 1024px) {
+  .aboutImage {
+    min-width: 625px;
+  }
 }
 .aboutTextBlock {
   display: block;
