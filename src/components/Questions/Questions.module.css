@@ -33,7 +33,7 @@
 }
 @media screen and (min-width: 1024px) {
   .questionsText {
-    text-align: center;
+    text-align: left;
     font-size: 80px;
     line-height: 96px;
   }
