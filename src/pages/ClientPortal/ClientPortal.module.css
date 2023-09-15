@@ -5,7 +5,8 @@
 .contentClass {
   flex-grow: 1;
   transition: margin-left 0.3s ease-in-out;
-  margin-left: 60px;
+  margin-left: 50px;
+  padding-left: 10px;
 }
 
 .clienPortalHeader {
