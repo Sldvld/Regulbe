@@ -4,10 +4,16 @@ import MainNavigation from '../MainNavigation/MainNavigation';
 import logo from '../../assets/logo-regulbe.svg';
 import sprite from '../../assets/sprite.svg';
 import css from './Header.module.css';
+import ButtonMobileMenu from 'components/ButtonMobileMenu/ButtonMobileMenu';
 
 const Header = () => {
   const location = useLocation();
   const shouldShowNavigation =
+    location.pathname !== '/termsandconditions' &&
+    location.pathname !== '/privacypolicy' &&
+    location.pathname !== '/careers';
+
+  const shouldShowMobileButton =
     location.pathname !== '/termsandconditions' &&
     location.pathname !== '/privacypolicy' &&
     location.pathname !== '/careers';
@@ -39,15 +45,12 @@ const Header = () => {
               </NavLink>
             </li>
           </ul>
-          <button
-            onClick={toggleMobileMenu}
-            className={css.mobileMenuButton}
-            type="button"
-          >
-            <svg className={css.xSvg} width="24" height="24">
-              <use href={sprite + '#icon-menu'}></use>
-            </svg>
-          </button>
+          {shouldShowMobileButton && (
+            <ButtonMobileMenu
+              isMobileMenuOpen={isMobileMenuOpen}
+              toggleMobileMenu={toggleMobileMenu}
+            />
+          )}
         </header>
       </div>
       {isMobileMenuOpen && (
@@ -94,7 +97,6 @@ const Header = () => {
               </NavLink>
             </li>
           </ul>
-
           <button
             className={css.mobileCloseMenuButton}
             onClick={toggleMobileMenu}

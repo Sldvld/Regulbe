@@ -7,27 +7,18 @@
     display: none;
   }
 }
-.mobileMenuButton {
+.mobileCloseMenuButton {
+  position: absolute;
+  top: 15px;
+  right: 15px;
   background-color: transparent;
   border: none;
   cursor: pointer;
 }
-@media screen and (min-width: 1024px) {
-  .mobileMenuButton {
-    display: none;
-  }
-}
-.mobileCloseMenuButton {
-  position: absolute;
-  border: none;
-  background: none;
-  cursor: pointer;
-  top: 15px;
-  right: 15px;
-}
 .xSvg {
   fill: var(--text-color-white);
 }
+
 .mobileMenu {
   position: absolute;
   top: 0;
