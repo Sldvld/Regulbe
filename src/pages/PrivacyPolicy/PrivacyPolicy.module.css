@@ -1,3 +1,12 @@
+.mobilePreHeader {
+  height: 50px;
+  background: var(--gradient-text);
+}
+@media screen and (min-width: 768px) {
+  .mobilePreHeader {
+    display: none;
+  }
+}
 .termsSection {
   padding: 0px 0px 70px 0px;
 }
