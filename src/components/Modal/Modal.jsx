@@ -1,8 +1,18 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import sprite from '../../assets/sprite.svg';
 import css from './Modal.module.css';
 
 const Modal = ({ active, setActive, children }) => {
+  useEffect(() => {
+    if (active) {
+      document.body.classList.add('modalOpen');
+    } else {
+      document.body.classList.remove('modalOpen');
+    }
+    return () => {
+      document.body.classList.remove('modalOpen');
+    };
+  }, [active]);
   return (
     <div
       className={`${css.modal} ${active ? css.active : ''}`}
