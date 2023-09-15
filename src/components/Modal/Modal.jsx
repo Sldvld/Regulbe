@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import sprite from '../../assets/sprite.svg';
 import css from './Modal.module.css';
 
