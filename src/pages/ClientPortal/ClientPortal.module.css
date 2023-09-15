@@ -5,7 +5,7 @@
 .contentClass {
   flex-grow: 1;
   transition: margin-left 0.3s ease-in-out;
-  margin-left: 50px;
+  margin-left: 40px;
   padding-left: 10px;
 }
 
@@ -252,11 +252,9 @@
   border-radius: 10px;
 }
 .contentShifted {
-  margin-left: 500px;
+  margin-left: 480px;
   transition: margin-left 0.3s ease-in-out;
-}
-.contentClass {
-  padding-left: 0px;
+  padding-left: 10px;
 }
 
 /* Accordion */
