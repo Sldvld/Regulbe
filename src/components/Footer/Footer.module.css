@@ -1,6 +1,12 @@
 .footer {
-  padding: 60px 15px;
+  position: relative;
+  padding: 50px 15px 120px 15px;
   background: var(--gradient-text);
+}
+@media screen and (min-width: 1024px) {
+  .footer {
+    padding: 60px 15px;
+  }
 }
 .footerShifted {
   margin-left: 500px;
@@ -11,12 +17,17 @@
   margin-left: auto;
   margin-right: auto;
   max-width: 1500px;
-  padding: 0px 15px;
 }
 .footerBlocks {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+}
+@media screen and (min-width: 1024px) {
+  .footerBlocks {
+    flex-direction: row;
+    align-items: center;
+  }
 }
 .footerLabel {
   text-decoration: none;
@@ -24,11 +35,16 @@
 }
 .navList {
   display: flex;
+  flex-direction: column;
   list-style: none;
   padding: 0;
   gap: 31px;
 }
-
+@media screen and (min-width: 1024px) {
+  .navList {
+    flex-direction: row;
+  }
+}
 .navLink {
   text-decoration: none;
   color: var(--text-color-white);
@@ -60,7 +76,10 @@
 
 .footerCopyright {
   display: block;
-  margin-left: -250px;
+  position: absolute;
+  bottom: 50px;
+  left: 15px;
+  margin-left: 0px;
   color: var(--text-color-white);
   font-size: 16px;
   font-weight: 500;
@@ -68,16 +87,32 @@
   letter-spacing: 0.02em;
   text-align: left;
 }
+@media screen and (min-width: 1024px) {
+  .footerCopyright {
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+  }
+}
 .svgBlock {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 25px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+@media screen and (min-width: 1024px) {
+  .svgBlock {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
 }
 .footerSvg {
   width: 32px;
   height: 32px;
 }
+
 .socialLink {
   display: inline-flex;
   align-items: center;

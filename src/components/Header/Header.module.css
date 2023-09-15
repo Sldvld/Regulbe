@@ -5,13 +5,17 @@
   width: 100%;
   max-width: 1500px;
   align-items: center;
-  height: 120px;
+  height: 75px;
   background-color: transparent;
   box-shadow: none;
   left: 50%;
   transform: translateX(-50%);
 }
-
+@media screen and (min-width: 768px) {
+  .headerBox {
+    height: 200px;
+  }
+}
 .headerLogo {
   display: block;
   text-decoration: none;
@@ -19,12 +23,14 @@
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  padding: 15px;
-  font-size: 30px;
-  font-weight: 600;
-  line-height: 36px;
+  max-width: 50px;
+  padding: 0 15px;
 }
-
+@media screen and (max-width: 767px) {
+  .logo {
+    max-width: 58px;
+  }
+}
 .headerLink {
   display: block;
   text-decoration: none;

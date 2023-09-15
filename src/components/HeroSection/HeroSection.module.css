@@ -150,7 +150,7 @@
   text-align: left;
 }
 .formInput {
-  width: 350px;
+  min-width: 350px;
   height: 50px;
   padding: 0px 15px;
   border-radius: 12px;
