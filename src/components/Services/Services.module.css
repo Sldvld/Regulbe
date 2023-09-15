@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   max-width: 1500px;
-  padding: 70px;
+  padding: 70px 0px;
   background-color: var(--background-color-grey);
 }
 @media screen and (min-width: 1024px) {
@@ -14,11 +14,12 @@
 }
 .servicesWrapper {
   display: flex;
+  align-items: center;
   flex-direction: column;
   justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
-  padding: 70px 0px;
+  padding: 0px 15px;
 }
 @media screen and (min-width: 1024px) {
   .servicesWrapper {
@@ -32,7 +33,7 @@
 }
 @media screen and (min-width: 1024px) {
   .servicesTextBlock {
-    min-width: 500px;
+    width: 250px;
   }
 }
 .servicesBlocks {
@@ -80,7 +81,7 @@
   justify-content: center;
   flex-direction: row;
   max-height: 1000px;
-  width: 345px;
+  width: 280px;
   border-radius: 20px;
   background: var(--gradient-text);
 }
