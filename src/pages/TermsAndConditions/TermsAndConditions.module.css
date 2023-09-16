@@ -66,14 +66,14 @@
   line-height: 36px;
   letter-spacing: 0.02em;
 }
-.secondaryHeaders::before {
+/* .secondaryHeaders::before {
   content: '';
   display: block;
   width: 100%;
   height: 1px;
   background-color: var(--primary-color);
   margin-bottom: 10px;
-}
+} */
 .updaterBlock {
   display: flex;
   justify-content: flex-end;

@@ -88,7 +88,7 @@ const Careers = () => {
           <h2 className={css.secondaryHeaders}>Vacancies: </h2>
           <Accordion allowMultiple transition transitionTimeout={250}>
             <AccordionItem
-              className={css.secondaryHeaders}
+              className={css.secondaryHeadersAcc}
               header="Junior Regulatory Analyst - Cloud Communications/ Telecommunications (Remote)"
             >
               <p className={css.termsText}>
