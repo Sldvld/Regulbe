@@ -31,9 +31,9 @@
 .servicesTextBlock {
   display: block;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
   .servicesTextBlock {
-    width: 250px;
+    width: 600px;
   }
 }
 .servicesBlocks {
