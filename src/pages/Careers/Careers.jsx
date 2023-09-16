@@ -40,12 +40,7 @@ const Careers = () => {
             <p className={css.termsTitle}>Careers</p>
           </div>
           <h1 className={css.termsHeader}>Careers</h1>
-          <div className={css.updaterBlock}>
-            <p className={css.updaterData}>
-              <span className={css.updaterText}>Last update: </span>15
-              September, 2023
-            </p>
-          </div>
+          <div className={css.updaterBlock}></div>
           <h2 className={css.secondaryHeaders}>
             Join Our Team: Where Talent Thrives
           </h2>

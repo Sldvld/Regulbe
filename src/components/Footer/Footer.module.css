@@ -91,7 +91,7 @@
   .footerCopyright {
     position: relative;
     bottom: 0px;
-    left: 0px;
+    left: -100px;
   }
 }
 .svgBlock {
