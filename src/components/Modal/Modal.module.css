@@ -18,13 +18,13 @@
   pointer-events: all;
 }
 .modalContent {
-  padding: 20px;
   border-radius: 12px;
   background-color: #ffffff;
   width: 500px;
   transform: scale(0.5);
   transition: 0.4s all;
 }
+
 .modalContent.active {
   transform: scale(1);
 }
