@@ -22,6 +22,9 @@
     flex-direction: row;
   }
 }
+.geographiesBlock {
+  width: 100%;
+}
 .geographiesHeader {
   margin-bottom: 70px;
   color: var(--text-color-black);
@@ -54,7 +57,7 @@
 }
 
 .accordion {
-  width: 320px;
+  width: 300px;
 }
 @media screen and (min-width: 1440px) {
   .accordion {
@@ -110,7 +113,7 @@
 
 .arrowSvg {
   margin-left: auto;
-  margin-right: 10px;
+
   transition: transform 0.25s cubic-bezier(0, 0, 0, 1);
 }
 
