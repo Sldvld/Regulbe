@@ -28,13 +28,10 @@ const Questions = () => {
       <Modal active={modalActive} setActive={setModalActive}>
         <div className={css.modalBlock}>
           <form className={css.modalForm}>
-            <h2 className={css.formMainLabel}>Sign in</h2>
-            <h3 className={css.formSecondaryLabel}>
-              Sign in with your username and password
-            </h3>
+            <h2 className={css.formMainLabel}>Contact us</h2>
             <div className={css.modalInputBlock}>
               <label htmlFor="name" className={css.formLabel}>
-                Your username
+                Full Name
               </label>
               <input
                 type="text"
@@ -43,22 +40,37 @@ const Questions = () => {
                 required
                 minLength="4"
                 maxLength="20"
-                placeholder="Enter username"
+                placeholder="Enter your full name"
                 className={css.formInput}
               />
             </div>
             <div className={css.modalInputBlock}>
               <label htmlFor="name" className={css.formLabel}>
-                Your password
+                Company
               </label>
               <input
                 type="text"
                 name="name"
                 id="name"
                 required
+                minLength="2"
+                maxLength="20"
+                placeholder="Enter your company name"
+                className={css.formInput}
+              />
+            </div>
+            <div className={css.modalInputBlock}>
+              <label htmlFor="name" className={css.formLabel}>
+                Corporate email address
+              </label>
+              <input
+                type="mail"
+                name="name"
+                id="name"
+                required
                 minLength="4"
                 maxLength="20"
-                placeholder="Enter password"
+                placeholder="Enter your corporate email address"
                 className={css.formInput}
               />
             </div>
@@ -71,24 +83,13 @@ const Questions = () => {
                 id="accept"
               />
               <label className={css.modalRemember} htmlFor="accept">
-                Remember me
+                I would like to be informed about Regulbe’s latest research and
+                services
               </label>
-              <a
-                href="mailto: info@regulbe.com"
-                className={css.modalForgotPass}
-              >
-                Forgot password?
-              </a>
             </div>
             <button type="submit" className={css.loginButton}>
-              <span className={css.loginButtonText}>Log in</span>
+              <span className={css.loginButtonText}>Send</span>
             </button>
-            <p className={css.notClient}>
-              Not a client?
-              <a href="mailto: info@regulbe.com" className={css.notClientSend}>
-                Contact us
-              </a>
-            </p>
           </form>
         </div>
       </Modal>

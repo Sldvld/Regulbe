@@ -13,6 +13,7 @@
   transition: 0.5s;
   z-index: 1;
 }
+
 .modal.active {
   opacity: 1;
   pointer-events: all;
@@ -20,11 +21,15 @@
 .modalContent {
   border-radius: 12px;
   background-color: #ffffff;
-  width: 500px;
+  max-width: 500px;
   transform: scale(0.5);
   transition: 0.4s all;
 }
-
+@media screen and (min-width: 1024px) {
+  .modal {
+    min-width: 500px;
+  }
+}
 .modalContent.active {
   transform: scale(1);
 }
